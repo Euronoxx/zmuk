@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from "next/link";
 import '../globals.css';
+import { Carousel } from "react-bootstrap";
 
 const homebanner = () => {
 
