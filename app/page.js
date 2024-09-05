@@ -7,6 +7,7 @@ import Plansection from "./components/Plansection";
 import Choosezoiko from "./components/Choosezoiko";
 import Simplan from "./components/SimPlan";
 import Footer from "./components/Footer";
+import PhoneSlider from "./components/PhoneSlider";
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
     <Plansection />
     <Choosezoiko />
     <Simplan />
+    <PhoneSlider />
     <Footer />
     </>
   );

@@ -9,7 +9,7 @@ const footer = () => {
             <Container>
                 <Row>
                     <Col className="col-md-4">
-                        <Link className="navbar-brand" href="#">
+                        <Link className="navbar-brand" href="/">
                             <Image src='/img/zoikomobile_logo.png' width={313} height={130} alt="ZM Logo" />
                         </Link>
                     </Col>
@@ -30,7 +30,7 @@ const footer = () => {
                             <li>Zero Cost SMS</li>
                             <li>Discounted Rates</li>
                             <li>Refer Link Friend</li>
-                            <li className="dropdown"><Link href="#">Zioko Programs</Link>
+                            <li className="dropdown"><Link href="#">Zioko Programs <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
                                     <li><Link href="#">Student Discount Prgm</Link></li>
                                     <li><Link href="#">Student Discount Form</Link></li>
@@ -47,7 +47,7 @@ const footer = () => {
                             <li><Link href="#">News</Link></li>
                             <li><Link href="#">FAQs</Link></li>
                             <li><Link href="#">Contact Us</Link></li>
-                            <li className="dropdown"><Link href="">Useful Resources</Link>
+                            <li className="dropdown"><Link href="">Useful Resources <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
                                     <li><Link href="#">UK Retirement Resources</Link></li>
                                     <li><Link href="#">UK Business Resources</Link></li>
@@ -66,7 +66,7 @@ const footer = () => {
                             <li><Link href="#">Vulnerability Policy</Link></li>
                             <li><Link href="#">Modern Slavery Policy</Link></li>
                             <li><Link href="#">ESG Policy</Link></li>
-                            <li className="dropdown"><Link href="#">Zoiko Policies</Link>
+                            <li className="dropdown"><Link href="#">Zoiko Policies <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
                                     <li><Link href="#">Privacy Policy</Link></li>
                                     <li><Link href="#">Cookie Policy</Link></li>
