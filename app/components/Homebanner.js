@@ -9,7 +9,7 @@ const homebanner = () => {
         <Container fluid className="p-0">
             <div className="headbar">
                 <Container className="py-2">
-                    Enjoy Amazing SIM Only Deals From the Animal &amp; Music Loving Network!
+                    Enjoy Amazing SIM Only Deals From the Animal <span className="txtred">&amp;</span> Music Loving Network!
                 </Container>
             </div>
 
@@ -18,7 +18,7 @@ const homebanner = () => {
                     <div className="carousel-item slide1 active">
                         <div className="container">
                             <div className="btnbox">
-                                <Link href="#" className="gr">Switch &amp; Save</Link>
+                                <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
                                 <Link href="#" className="wh">Find out more</Link>
                             </div>
                         </div>
@@ -26,7 +26,7 @@ const homebanner = () => {
                     <div className="carousel-item slide2">
                         <div className="container">
                             <div className="btnbox">
-                                <Link href="#" className="gr">Switch &amp; Save</Link>
+                                <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
                                 <Link href="#" className="wh">Find out more</Link>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const homebanner = () => {
                     <div className="carousel-item slide3">
                         <div className="container">
                             <div className="btnbox">
-                                <Link href="#" className="gr">Switch &amp; Save</Link>
+                                <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
                                 <Link href="#" className="wh">Find out more</Link>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ const homebanner = () => {
                     <div className="carousel-item slide5">
                         <div className="container">
                             <div className="btnbox">
-                                <Link href="#" className="gr">Switch &amp; Save</Link>
+                                <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
                                 <Link href="#" className="wh">Find out more</Link>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const homebanner = () => {
                     <div className="carousel-item slide6">
                         <div className="container">
                             <div className="btnbox">
-                                <Link href="#" className="gr">Switch &amp; Save</Link>
+                                <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
                                 <Link href="#" className="wh">Find out more</Link>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const homebanner = () => {
                     <div className="carousel-item slide7">
                         <div className="container">
                             <div className="btnbox">
-                                <Link href="#" className="gr">Switch &amp; Save</Link>
+                                <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
                                 <Link href="#" className="wh">Find out more</Link>
                             </div>
                         </div>

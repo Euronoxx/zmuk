@@ -9,7 +9,7 @@ const plansection = () => {
             <p>Get super-fast Broadband | Reliable Network Coverage at Low Prices | Free International Calls | Free High Speed 5G Data</p>
             <Row className="text-center mt-4 plansec">
                 <Col>
-                    <Link href="#">
+                    <Link href='/plans'>
                         <Image src='/img/homeicon-1.png' className="my-2" width={100} height={100} alt="View Plans" />
                         <p>View Plans</p>
                     </Link>
@@ -21,13 +21,13 @@ const plansection = () => {
                     </Link>
                 </Col>
                 <Col>
-                    <Link href="{{ route('switchsave') }}">
+                    <Link href='/zoiko-mobile-switch-save-form'>
                         <Image src='/img/homeicon-3.png' className="my-2"width={100} height={100} alt="Switch &amp; Save" />
                         <p>Switch &amp; Save</p>
                     </Link>
                 </Col>
                 <Col>
-                    <Link href="{{ route('offer-page') }}">
+                    <Link href='offer-plans'>
                         <Image src='/img/homeicon-4.png' className="my-2"width={100} height={100} alt="Special Deals" />
                         <p>Special Deals</p>
                     </Link>

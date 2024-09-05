@@ -8,7 +8,7 @@ const header = () => {
     return (
         <nav className="navbar companyred sticky-top navbar-expand-lg navbar-light bg-light">
             <Container>
-                <Link className="navbar-brand" href="#">
+                <Link className="navbar-brand" href="/">
                     <Image src='/img/zoikomobile_logo.png' width={170} height={65} alt="Logo" />
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@ const header = () => {
                         <li className="nav-item dropdown">
                             <Link className="nav-link dropdown-toggle mainmenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Zoiko Plans</Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link className="dropdown-item" href="#">All Plans</Link></li>
+                                <li><Link className="dropdown-item" href='/plans'>All Plans</Link></li>
                                 <li><Link className="dropdown-item" href="#">Punbil Sector Lifetime Deals</Link></li>
                                 <li><Link className="dropdown-item" href="#">Low Income Deals</Link></li>
                                 <li><Link className="dropdown-item" href="#">Student Deals</Link></li>
