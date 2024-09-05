@@ -50,10 +50,13 @@ const header = () => {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link mainmenu" href="#">About Us</Link>
+                            <Link className="nav-link mainmenu" href="animal-music-channel">Animal &amp; Music</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link mainmenu" href="#">Contact Us</Link>
+                            <Link className="nav-link mainmenu" href="/about-us">About Us</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link mainmenu" href="/contact-us">Contact Us</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <Link className="nav-link dropdown-toggle mainmenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
