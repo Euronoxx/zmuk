@@ -31,22 +31,22 @@ const switchsave = () => {
                             <Row>
                                 <Col>
                                     <label for="fname">First name</label>
-                                    <input type="text" name="fname" className="form-control" placeholder="First name" aria-label="First name" Required />
+                                    <input type="text" name="fname" className="form-control" placeholder="First name" aria-label="First name" required />
                                 </Col>
                                 <Col>
                                     <label for="lname">Last name</label>
-                                    <input type="text" name="lname" className="form-control" placeholder="Last name" aria-label="Last name" Required />
+                                    <input type="text" name="lname" className="form-control" placeholder="Last name" aria-label="Last name" required />
                                 </Col>
                             </Row>
                             <br />
                             <Row>
                                 <Col>
                                     <label for="email">Email</label>
-                                    <input type="email" name="email" className="form-control" placeholder="Email" aria-label="Email" Required />
+                                    <input type="email" name="email" className="form-control" placeholder="Email" aria-label="Email" required />
                                 </Col>
                                 <Col>
                                     <label for="mobile">Mobile</label>
-                                    <input type="text" name="mobile" className="form-control" placeholder="Mobile" aria-label="Mobile" Required />
+                                    <input type="text" name="mobile" className="form-control" placeholder="Mobile" aria-label="Mobile" required />
                                 </Col>
                             </Row>
                             <h5 className="mt-4">Current Mobile Service Details</h5>
@@ -74,7 +74,7 @@ const switchsave = () => {
                             <Row>
                                 <Col>
                                     <label for="fname">PAC Code: *</label>
-                                    <input type="text" name="paccode" className="form-control" /><small>(Required if keeping your number)</small>
+                                    <input type="text" name="paccode" className="form-control" /><small>(required if keeping your number)</small>
                                 </Col>
                                 <Col></Col>
                             </Row>
@@ -88,7 +88,7 @@ const switchsave = () => {
                             <Row>
                                 <div className="col">
                                     <label for="fname">STAC Code: *</label>
-                                    <input type="text" name="staccode" className="form-control" /><small>(Required if cancelling your current service without porting your numbe)</small>
+                                    <input type="text" name="staccode" className="form-control" /><small>(required if cancelling your current service without porting your numbe)</small>
                                 </div>
                                 <div className="col"></div>
                             </Row>

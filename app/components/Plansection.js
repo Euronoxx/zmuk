@@ -15,7 +15,7 @@ const plansection = () => {
                     </Link>
                 </Col>
                 <Col>
-                    <Link href="#">
+                    <Link href="/activate">
                         <Image src='/img/homeicon-2.png' className="my-2"width={100} height={100} alt="Activate Your SIM" />
                         <p>Activate Your SIM</p>
                     </Link>
