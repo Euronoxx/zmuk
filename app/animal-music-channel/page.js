@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useState, useEffect } from 'react';
 
-const Animal = () => {
+export function Animal () {
 
     const [posts, usePosts] = useState(null)
     useEffect(() => {
