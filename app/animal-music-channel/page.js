@@ -3,9 +3,8 @@ import { Container } from "react-bootstrap";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useState, useEffect } from 'react';
-import { render } from "react-dom";
 
-const animal = () => {
+const Animal = () => {
 
     const [posts, setPosts] = useState(null)
  
@@ -36,4 +35,4 @@ const animal = () => {
         </>
     );
 };
-export default animal;
+export default Animal;
