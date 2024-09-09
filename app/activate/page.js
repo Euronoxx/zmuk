@@ -111,7 +111,7 @@ const activate = () => {
                     </Col>
                 </Row>
                 <br />
-                <input type="submit" value="Submit" name="submit" className="btn btn-outline-danger" />
+                <input type="submit" value="Submit" name="submit" className="btn btn-outline-danger btn-lg" />
             </form>
         </Container>
         <Footer />

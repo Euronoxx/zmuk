@@ -411,6 +411,9 @@ a.mainmenu {
   text-align: left;
   margin-left: -30px;
 }
+.dropdown-item:hover {
+  color: #DF1E5A !important;
+}
 
 /** Footer css */
 .topfooter {
