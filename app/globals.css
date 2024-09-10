@@ -465,7 +465,63 @@ ul .dropdownmenu li {
   color: #0A5A35;
   text-decoration: underline;
 }
-
+.aboutbox {
+  background-color: white;
+  border: 1px solid #FECC00;
+  border-radius: 8px;
+  padding: 30px 30px;
+  font-size: 22px;
+  margin-top: -140px;
+  color: black;
+}
+.aboutbox h2 {
+  font-weight: 600;
+  color: #0A5A35;
+}
+.readmore a {
+  color: #DF1E5A;
+}
+.aboutgreybox {
+  background-color: #E6E0E0;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.aboutgreybox h3 {
+  color: #DF1E5A;
+}
+.aboutgreybox .imgbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.aboutgreybox .whitebox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.txtbox {
+  background-color: white;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  width: 15%;
+  font-size: 12px;
+  color: #0A5A35;
+}
+.txtbox .headline {
+  color: #DF1E5A;
+  font-size: 18px;
+}
+.imgbox > img {
+  margin: 12px;
+}
+.whitebox > div {
+  margin: 10px;
+}
 
 .footer {
   background-image: url('/img/footer-bg.jpeg');
