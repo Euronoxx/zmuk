@@ -16,11 +16,11 @@ const footer = () => {
                     <Col>
                         <h4>Zoiko Mobile</h4>
                         <ul>
-                            <li>Zoiko Mobile Plans</li>
-                            <li>Business SIM Deals</li>
-                            <li>Data Only SIMs</li>
-                            <li>30-Day Plans</li>
-                            <li>Coverage Checker</li>
+                            <li><Link href="#">Zoiko Mobile Plans</Link></li>
+                            <li><Link href="#">Business SIM Deals</Link></li>
+                            <li><Link href="#">Data Only SIMs</Link></li>
+                            <li><Link href="#">30-Day Plans</Link></li>
+                            <li><Link href="#">Coverage Checker</Link></li>
                         </ul>
                     </Col>
                     <Col>
