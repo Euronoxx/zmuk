@@ -75,7 +75,7 @@ const about = () => {
                 </div>
                 <div className="txtbox">
                     <div className="headline">Help &amp; Support</div>
-                    <p>We've got you covered 24x7 with LIVE &amp; Customer Care Support</p>
+                    <p>We&apos;ve got you covered 24x7 with LIVE &amp; Customer Care Support</p>
                 </div>
                 <div className="txtbox">
                     <div className="headline">Switch With a Text</div>
