@@ -31,7 +31,7 @@ const about = () => {
                                 <p>Our tagline, Connecting Every Possibility encapsulates the heart and soul of Zoiko Mobile, and we are excited to share this inspiring journey with you.</p>
                                 <p className="readmore"><Link href="#">Read more</Link></p>
                             </Col>
-                            <Col className="col-md-4 text-center hidden-lg hidden-md hidden-sm hidden-xs">
+                            <Col className="col-md-4 text-center">
                                 <Image src={'/img/Zoiko-logo-big.png'} alt="Zoiko Mobile Logo" width={240} height={240} />
                             </Col>
                         </Row>
