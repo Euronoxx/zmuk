@@ -17,11 +17,11 @@ const about = () => {
             </div>
         </Container>
         <Container fluid className="p-0">
-            <Image src={'/img/about-us-banner.webp'} alt="About Us Banner" className="w-100" width={2000} height={655} />
+            <Image src={'/img/about-us-banner.webp'} alt="About Us Banner" width={2000} height={655} className="aboutbannerimg" />
         </Container>
         <Container>
             <Row>
-                <Col className="col-md-2"></Col>
+                <Col className="col-md-2 col-xs-0 col-sm-0"></Col>
                 <Col>
                     <div className="aboutbox mb-5">
                         <h2>The Zoiko Mobile Chronicle</h2>
@@ -31,13 +31,13 @@ const about = () => {
                                 <p>Our tagline, Connecting Every Possibility encapsulates the heart and soul of Zoiko Mobile, and we are excited to share this inspiring journey with you.</p>
                                 <p className="readmore"><Link href="#">Read more</Link></p>
                             </Col>
-                            <Col className="col-md-4 text-center">
+                            <Col className="col-md-4 text-center hidden-lg hidden-md hidden-sm hidden-xs">
                                 <Image src={'/img/Zoiko-logo-big.png'} alt="Zoiko Mobile Logo" width={240} height={240} />
                             </Col>
                         </Row>
                     </div>
                 </Col>
-                <Col className="col-md-2"></Col>
+                <Col className="col-md-2 col-xs-0 col-sm-0"></Col>
             </Row>
         </Container>
         <Container className="aboutgreybox mb-5">

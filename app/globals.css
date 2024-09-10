@@ -496,6 +496,7 @@ ul .dropdownmenu li {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .aboutgreybox .whitebox {
   display: flex;
@@ -522,7 +523,10 @@ ul .dropdownmenu li {
 .whitebox > div {
   margin: 10px;
 }
-
+.aboutbannerimg {
+  width: 100%;
+  height: auto;
+}
 .footer {
   background-image: url('/img/footer-bg.jpeg');
   background-repeat: no-repeat;
@@ -567,5 +571,25 @@ ul .dropdownmenu li {
   }
   .slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7 {
       height: 300px;
+  }
+  .aboutbox {
+    margin-top: -12px;
+    font-size: 14px;
+    width: 100%;
+  }
+  .headbar {
+    font-size: 14px;
+  }
+  .aboutgreybox .imgbox {
+    flex-direction: column;
+  }
+  .aboutgreybox .whitebox {
+    flex-direction: column;
+  }
+  .aboutgreybox .whitebox .txtbox {
+    width: 60%;
+  }
+  .aboutbox h2 {
+    font-size: 16px;
   }
 }
