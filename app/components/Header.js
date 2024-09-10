@@ -20,7 +20,7 @@ const header = () => {
                             <Link className="nav-link dropdown-toggle mainmenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Zoiko Plans</Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link className="dropdown-item" href='/plans'>All Plans</Link></li>
-                                <li><Link className="dropdown-item" href="#">Punbil Sector Lifetime Deals</Link></li>
+                                <li><Link className="dropdown-item" href="#">Public Sector Lifetime Deals</Link></li>
                                 <li><Link className="dropdown-item" href="#">Low Income Deals</Link></li>
                                 <li><Link className="dropdown-item" href="#">Student Deals</Link></li>
                                 <li><Link className="dropdown-item" href="#">Data Only SIMs</Link></li>
