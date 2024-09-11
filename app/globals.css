@@ -487,9 +487,10 @@ ul .dropdownmenu li {
   border: 1px solid black;
   border-radius: 4px;
   text-align: center;
-  width: 15%;
   font-size: 12px;
   color: #0A5A35;
+  height: 140px;
+  margin-bottom: 4px;
 }
 .txtbox .headline {
   color: #DF1E5A;
@@ -587,5 +588,19 @@ ul .dropdownmenu li {
     background-color: #0A5A35;
     border-radius: 8px;
     margin-right: 4px;
+  }
+  .limtbanner {
+    height: 120px;
+  }
+  .numslide {
+    height: 20px;
+  }
+  .aboutgreybox {
+    background-color: #E6E0E0;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 14px;
   }
 }
