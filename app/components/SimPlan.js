@@ -48,14 +48,14 @@ const simplan = () => {
         <Container fluid className="refurbished">
             <Container className="py-4">
                 <Row>
-                    <Col className="col-md-4 py-4">
+                    <div className="col-md-4 col-sm-12 py-4">
                         <h2>Peck Up A Fantastic Deal On Our Refurbished Smartphones!</h2>
                         <p>From Sleek Design to Lightning-Fast Processors, Our Refurbished Smartphones Have Got It All.</p>
                         <button type="button" className="btn btn-danger btn-lg">View Details</button>
-                    </Col>
-                    <Col className="col-md-8">
-                        <Image src='/img/mobile_group.png' className="w-100" width={450} height={400} alt="" />
-                    </Col>
+                    </div>
+                    <div className="col-md-8 col-sm-12 order-first order-md-1">
+                        <img src='/img/mobile_group.png' className="w-100"  alt="" />
+                    </div>
                 </Row>
             </Container>
         </Container>
