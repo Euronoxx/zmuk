@@ -24,7 +24,7 @@ function Homebanner() {
           <Carousel.Caption>
             <div className="btnbox">
                 <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
-                <Link href="#" className="wh">Find out more</Link>
+                <Link href="/limited-offers" className="wh">Find out more</Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -37,7 +37,7 @@ function Homebanner() {
           <Carousel.Caption>
             <div className="btnbox">
                 <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
-                <Link href="#" className="wh">Find out more</Link>
+                <Link href="/limited-offers" className="wh">Find out more</Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -50,7 +50,7 @@ function Homebanner() {
           <Carousel.Caption>
             <div className="btnbox">
                 <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
-                <Link href="#" className="wh">Find out more</Link>
+                <Link href="/limited-offers" className="wh">Find out more</Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -76,7 +76,7 @@ function Homebanner() {
           <Carousel.Caption>
             <div className="btnbox">
                 <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
-                <Link href="#" className="wh">Find out more</Link>
+                <Link href="/limited-offers" className="wh">Find out more</Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -89,7 +89,7 @@ function Homebanner() {
           <Carousel.Caption>
             <div className="btnbox">
                 <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
-                <Link href="#" className="wh">Find out more</Link>
+                <Link href="/limited-offers" className="wh">Find out more</Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -102,7 +102,7 @@ function Homebanner() {
           <Carousel.Caption>
             <div className="btnbox">
                 <Link href='/zoiko-mobile-switch-save-form' className="gr">Switch &amp; Save</Link>
-                <Link href="#" className="wh">Find out more</Link>
+                <Link href="/limited-offers" className="wh">Find out more</Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>

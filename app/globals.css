@@ -344,6 +344,22 @@ a.mainmenu {
   color: #0A5A35;
   font-size: 22px;
 }
+.bigred {
+  color: #DF1E5A;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+}
+.verybigred {
+  color: #DF1E5A;
+  font-size: 48px;
+  font-weight: 800;
+}
+.bigblack {
+  color: black;
+  font-size: 28px;
+  font-weight: 400;
+}
 .andsign {
   color: #DF1E5A;
   font-family: "Futura bold new", Sans-serif;
