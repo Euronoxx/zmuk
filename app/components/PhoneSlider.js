@@ -238,7 +238,7 @@ const phoneslider = () => {
         </Container>
         <Container fluid className="switchnsave">
             <div className="snslink">
-                <a href="#">Find out more</a>
+                <a href='/limited-offers'>Find out more</a>
                 <a href='/zoiko-mobile-switch-save-form'>Switch &amp; Save</a>
             </div>
         </Container>
