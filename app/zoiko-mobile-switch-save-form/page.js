@@ -3,19 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import HeadBar from "../components/HeadBar";
 
 const switchsave = () => {
     
     return (
         <>
         <Header />
-        <Container fluid className="p-0">
-            <div className="headbar">
-                <Container className="py-2">
-                Switch to Simplicity <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> More Data <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> More Saving <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Less Hassle
-                </Container>
-            </div>
-        </Container>
+        <HeadBar text={<>Switch to Simplicity <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> More Data <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> More Saving <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Less Hassle</>} />
 
         <Container className="greybox">
             <Row>

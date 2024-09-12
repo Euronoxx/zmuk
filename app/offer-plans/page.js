@@ -4,18 +4,13 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import HeadBar from "../components/HeadBar";
 
 const offerplans = () => {
     return (
         <>
         <Header />
-        <Container fluid className="p-0">
-            <div className="headbar">
-                <Container className="py-2">
-                    Zoiko Mobile Limited Offers!
-                </Container>
-            </div>
-        </Container>
+        <HeadBar text='Zoiko Mobile Limited Offers!' />
 
         <Container className="my-5">
             <Row>

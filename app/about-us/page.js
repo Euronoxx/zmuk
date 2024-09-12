@@ -4,18 +4,13 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import Link from "next/link";
+import HeadBar from "../components/HeadBar";
 
 const about = () => {
     return (
         <>
         <Header />
-        <Container fluid className="p-0">
-            <div className="headbar">
-                <Container className="py-2">
-                    The Zoiko Philosophy <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Innovate <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Connect <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Communicate
-                </Container>
-            </div>
-        </Container>
+        <HeadBar text={<>The Zoiko Philosophy <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Innovate <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Connect <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Communicate</>} />
         <Container fluid className="p-0">
             <Image src={'/img/about-us-banner.webp'} alt="About Us Banner" width={2000} height={655} className="aboutbannerimg" />
         </Container>
