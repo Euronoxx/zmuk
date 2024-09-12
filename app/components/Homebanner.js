@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { Carousel, Container } from 'react-bootstrap';
-import '../globals.css';
+import { Carousel } from 'react-bootstrap';
 import HeadBar from './HeadBar';
 
 function Homebanner() {
