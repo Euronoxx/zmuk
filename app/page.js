@@ -8,6 +8,8 @@ import Choosezoiko from "./components/Choosezoiko";
 import Simplan from "./components/SimPlan";
 import Footer from "./components/Footer";
 import PhoneSlider from "./components/PhoneSlider";
+import BusinessSims from "./components/BusinessSims";
+import CustomerCare from "./components/CustomerCare";
 
 export default function Home() {
 
@@ -19,6 +21,8 @@ export default function Home() {
     <Choosezoiko />
     <Simplan />
     <PhoneSlider />
+    <CustomerCare />
+    <BusinessSims />
     <Footer />
     </>
   );
