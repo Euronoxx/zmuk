@@ -1,18 +1,13 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import HeadBar from "../components/HeadBar";
 
 const activate = () => {
     return (
         <>
         <Header />
-        <Container fluid className="p-0">
-            <div className="headbar">
-                <Container className="py-2">
-                    Activate your SIM
-                </Container>
-            </div>
-        </Container>
+        <HeadBar text='Activate your SIM' />
         <Container>
             <h4 className="my-4 green18 text-center">Get started with our services! Initiate the activation process for your new SIM card here</h4>
             <form action="" method="post" className="my-5">

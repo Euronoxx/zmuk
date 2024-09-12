@@ -5,26 +5,15 @@ import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Carouselsimplan from "../components/carouselsimplans";
+import HeadBar from "../components/HeadBar";
 
 const plans = () => {
     return (
         <>
         <Header />
-        <Container fluid className="p-0">
-            <div className="headbar">
-                <Container className="py-2">
-                    All Plans <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Unlimited Data <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Unlimited SMS <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Unlimited Calls <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Free Interntional Calls
-                </Container>
-            </div>
-        </Container>
+        <HeadBar text={<>All Plans <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Unlimited Data <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Unlimited SMS <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Unlimited Calls <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Free Interntional Calls</>} />
         <Carouselsimplan />
-        <Container fluid className="p-0">
-            <div className="headbar">
-                <Container className="py-2 mt-5">
-                    Zoiko SIM Only Business Deals
-                </Container>
-            </div>
-        </Container>
+        <HeadBar text='Zoiko SIM Only Business Deals' />
         <Container fluid className="my-4 simplandeal">
             <Row>
                 <Col>
@@ -104,13 +93,7 @@ const plans = () => {
                 </Col>
             </Row>
         </Container>
-        <Container fluid className="p-0">
-            <div className="headbar">
-                <Container className="py-2 mt-5">
-                    Zoiko Mobile Roaming Deals
-                </Container>
-            </div>
-        </Container>
+        <HeadBar text='Zoiko Mobile Roaming Deals' />
         <Container className="simplandeal my-4">
             <Row>
                 <Col>

@@ -2,17 +2,12 @@ import Link from 'next/link';
 import React from 'react';
 import { Carousel, Container } from 'react-bootstrap';
 import '../globals.css';
+import HeadBar from './HeadBar';
 
 function Homebanner() {
   return (
     <>
-    <Container fluid className="p-0">
-        <div className="headbar">
-            <Container className="py-2">
-                Enjoy Amazing SIM Only Deals From the Animal <span className="txtred">&amp;</span> Music Loving Network!
-            </Container>
-        </div>
-    </Container>
+    <HeadBar text={<>Enjoy Amazing SIM Only Deals From the Animal <span className="txtred">&amp;</span> Music Loving Network!</>} />
     <div>
       <Carousel>
         <Carousel.Item>
