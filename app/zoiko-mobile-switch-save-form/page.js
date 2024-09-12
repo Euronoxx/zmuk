@@ -14,12 +14,12 @@ const switchsave = () => {
 
         <Container className="greybox">
             <Row>
-                <Col>
+                <div className="col-md-6 col-sm-12 col-xs-12">
                     <h4>Speed up your savings with Zoiko Mobile&apos;s Switch &amp; Save deal!</h4>
                     <p>Our speedy Cheetah, Finn, knows a thing or two about fast tracking your finances. Switch to Zoiko Mobile today and enjoy fantastic saving on your mobile plan, plus free 5G speed!</p>
-                    <Image src='/img/cheetah.png' className="w-100" width={300} height={600} alt="Speed of Cheetah" />
-                </Col>
-                <Col>
+                    <Image src='/img/cheetah.png' className="w-100" width={300} height={600} style={{height:'auto'}} alt="Speed of Cheetah" />
+                </div>
+                <div className="col-md-6 col-sm-12 col-xs-12">
                     <div className="redborderbox">
                         <form action="" method="post">
                             <h5>Personal Information</h5>
@@ -105,7 +105,7 @@ const switchsave = () => {
                             <input type="submit" value="Submit" name="submit" className="btn btn-outline-danger" />
                         </form>
                     </div>
-                </Col>
+                </div>
             </Row>
         </Container>
         <Footer />

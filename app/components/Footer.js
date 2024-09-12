@@ -8,12 +8,12 @@ const footer = () => {
         <Container fluid className="topfooter">
             <Container>
                 <Row>
-                    <Col className="col-md-4">
+                    <div className="col-md-4 col-sm-12 col-xs-12">
                         <Link className="navbar-brand" href="/">
                             <Image src='/img/zoikomobile_logo.png' width={313} height={130} alt="ZM Logo" />
                         </Link>
-                    </Col>
-                    <Col>
+                    </div>
+                    <div className="col-md-2 col-sm-12 col-xs-12">
                         <h4>Zoiko Mobile</h4>
                         <ul>
                             <li><Link href="/plans">Zoiko Mobile Plans</Link></li>
@@ -22,8 +22,8 @@ const footer = () => {
                             <li><Link href="#">30-Day Plans</Link></li>
                             <li><Link href="#">Coverage Checker</Link></li>
                         </ul>
-                    </Col>
-                    <Col>
+                    </div>
+                    <div className="col-md-2 col-sm-12 col-xs-12">
                         <h4>Zoiko Rates</h4>
                         <ul>
                             <li>Roaming and Overage</li>
@@ -39,8 +39,8 @@ const footer = () => {
                                 </ul>
                             </li>
                         </ul>
-                    </Col>
-                    <Col>
+                    </div>
+                    <div className="col-md-2 col-sm-12 col-xs-12">
                         <h4>About Zoiko</h4>
                         <ul>
                             <li><Link href="#">Blogs</Link></li>
@@ -58,8 +58,8 @@ const footer = () => {
                                 </ul>
                             </li>
                         </ul>
-                    </Col>
-                    <Col>
+                    </div>
+                    <div className="col-md-2 col-sm-12 col-xs-12">
                         <h4>Zoiko Legal</h4>
                         <ul>
                             <li><Link href="#">Term and Conditions</Link></li>
@@ -77,7 +77,7 @@ const footer = () => {
                                 </ul>
                             </li>
                         </ul>
-                    </Col>
+                    </div>
                 </Row>
             </Container>
         </Container>
