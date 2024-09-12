@@ -38,22 +38,22 @@ const about = () => {
         <Container className="aboutgreybox mb-5">
             <h3>Reasons to Love Zoiko - Free SIM Card with SIM only deals UK</h3>
             <Row>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <Image src={'/img/free-international-call.png'} alt="Free international calls" width={180} height={180} />
                 </div>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <Image src={'/img/no-credit-check-2.png'} alt="No credit check" width={180} height={180} />
                 </div>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <Image src={'/img/poket-friendly-2.png'} alt="Pocket friendly" width={180} height={180} />
                 </div>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <Image src={'/img/swtich-to-zm.png'} alt="Switch to ZM" width={180} height={180} />
                 </div>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <Image src={'/img/no-1-network.png'} alt="No 1 network" width={180} height={180} />
                 </div>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <Image src={'/img/free-roam.png'} alt="Free to roam" width={180} height={180} />
                 </div>
             </Row>
@@ -64,37 +64,37 @@ const about = () => {
         </Container>
         <Container className="aboutgreybox mb-5">
             <Row>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <div className="txtbox">
                         <div className="headline">UK&apos;s BestNetwork</div>
                         <p>99% UK coverage powered by Uk&apos;s No 1 Network with 4G and 5G coverage</p>
                     </div>
                 </div>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <div className="txtbox">
                         <div className="headline">Fantastic Features</div>
                         <p>Features like 5G, Data rollover, Bundled offers, Roaming and Customised Plans</p>
                     </div>
                 </div>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <div className="txtbox">
                         <div className="headline">Roam Free</div>
                         <p>Roam hassle-free with Zoiko Mobile. Enjoy crystal-clear calls, lightning-fast data!</p>
                     </div>
                 </div>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <div className="txtbox">
                         <div className="headline">Amazing Value</div>
                         <p>Whether you are after the latest phone or SIM only plans we&apos;ve got you covered with all the fantastic deals</p>
                     </div>
                 </div>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <div className="txtbox">
                         <div className="headline">Help &amp; Support</div>
                         <p>We&apos;ve got you covered 24x7 with LIVE &amp; Customer Care Support</p>
                     </div>
                 </div>
-                <div className="col-md-2 col-sm-6">
+                <div className="col-md-2 col-sm-6 col-xs-6">
                     <div className="txtbox">
                         <div className="headline">Switch With a Text</div>
                         <p>Switch to Zoiko Mobile with a simple Text, for hassle-free, reliable connectivity everywhere!</p>
