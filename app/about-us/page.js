@@ -67,7 +67,7 @@ const about = () => {
                 <div className="col-md-2 col-sm-6 col-xs-6">
                     <div className="txtbox">
                         <div className="headline">UK&apos;s BestNetwork</div>
-                        <p>99% UK coverage powered by Uk&apos;s No 1 Network with 4G and 5G coverage</p>
+                        <p>99% UK coverage powered by UK&apos;s No 1 Network with 4G and 5G coverage</p>
                     </div>
                 </div>
                 <div className="col-md-2 col-sm-6 col-xs-6">
