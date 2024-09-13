@@ -1,9 +1,10 @@
 "use client"
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Carousel } from "react-bootstrap";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HeadBar from "../components/HeadBar";
 import Link from "next/link";
+import React from "react";
 
 function ThirtyDay () {
     return (
@@ -97,6 +98,221 @@ function ThirtyDay () {
             </div>
         </Container>
         <HeadBar text='Data-Only SIM Plans' />
+        <Carousel className="py-5 px-4 simplandeal">
+            <Carousel.Item>
+                <Row>
+                    <Col>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Stream Seeker</h5>
+                                <hr className="separator" />
+                                <Row>
+                                    <Col>
+                                        <div className="data">10GB</div><p style={{marginTop:'-26px',fontWeight:'bold',fontSize:'20px'}}>Data</p>
+                                    </Col>
+                                    <Col>
+                                        <p style={{textAlign:'right'}} className="mt-4"><span style={{textDecoration:'line-through'}}>£7.99</span><br /><span className="curprice">£6.49</span><br />per month</p>
+                                    </Col>
+                                </Row>
+                                <hr className="separator" />
+                                <ul>
+                                    <li>500MB EU Roaming Data</li>
+                                    <li>Calling Minutes<span className="txtred">*</span></li>
+                                    <li>Unlimited Texts<span className="txtred">*</span></li>
+                                    <li>International Calls<span className="txtred">*</span></li>
+                                </ul>
+                                <hr className="separator" />
+                                <div className="text-center"><Link href="#" className="btn btn-outline-danger mb-3 px-4">View plan</Link><br /><Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Connect Compass</h5>
+                                <hr className="separator" />
+                                <Row>
+                                    <Col>
+                                        <div className="data">30GB</div><p style={{marginTop:'-26px',fontWeight:'bold',fontSize:'20px'}}>Data</p>
+                                    </Col>
+                                    <Col>
+                                        <p style={{textAlign:'right'}} className="mt-4"><span style={{textDecoration:'line-through'}}>£11.99</span><br /><span className="curprice">£9.99</span><br />per month</p>
+                                    </Col>
+                                </Row>
+                                <hr className="separator" />
+                                <ul>
+                                    <li>500MB EU Roaming Data</li>
+                                    <li>Calling Minutes<span className="txtred">*</span></li>
+                                    <li>Unlimited Texts<span className="txtred">*</span></li>
+                                    <li>International Calls<span className="txtred">*</span></li>
+                                </ul>
+                                <hr className="separator" />
+                                <div className="text-center"><Link href="#" className="btn btn-outline-danger mb-3 px-4">View plan</Link><br /><Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Web Wanderer</h5>
+                                <hr className="separator" />
+                                <div className="row">
+                                    <div className="col">
+                                        <div className="data">100GB</div><p style={{marginTop:'-26px',fontWeight:'bold',fontSize:'20px'}}>Data</p>
+                                    </div>
+                                    <div className="col">
+                                        <p style={{textAlign:'right'}} className="mt-4"><span style={{textDecoration:'line-through'}}>£24.99</span><br /><span className="curprice">£21.99</span><br />per month</p>
+                                    </div>
+                                </div>
+                                <hr className="separator" />
+                                <ul>
+                                    <li>500MB EU Roaming Data</li>
+                                    <li>Calling Minutes<span className="txtred">*</span></li>
+                                    <li>Unlimited Texts<span className="txtred">*</span></li>
+                                    <li>International Calls<span className="txtred">*</span></li>
+                                </ul>
+                                <hr className="separator" />
+                                <div className="text-center"><Link href="#" className="btn btn-outline-danger mb-3 px-4">View plan</Link><br /><Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+            </Carousel.Item>
+            <Carousel.Item>
+                <Row>
+                    <Col>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Data Dash</h5>
+                                <hr className="separator" />
+                                <Row>
+                                    <Col>
+                                        <div className="data">1GB</div><p style={{marginTop:'-26px',fontWeight:'bold',fontSize:'20px'}}>Data</p>
+                                    </Col>
+                                    <Col>
+                                        <p style={{textAlign:'right'}} className="mt-4"><span style={{textDecoration:'line-through'}}>£2.99</span><br /><span className="curprice">£2.79</span><br />per month</p>
+                                    </Col>
+                                </Row>
+                                <hr className="separator" />
+                                <ul>
+                                    <li>500MB EU Roaming Data</li>
+                                    <li>Calling Minutes<span className="txtred">*</span></li>
+                                    <li>Unlimited Texts<span className="txtred">*</span></li>
+                                    <li>International Calls<span className="txtred">*</span></li>
+                                </ul>
+                                <hr className="separator" />
+                                <div className="text-center"><Link href="#" className="btn btn-outline-danger mb-3 px-4">View plan</Link><br /><Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Gig Guru</h5>
+                                <hr className="separator" />
+                                <Row>
+                                    <Col>
+                                        <div className="data">3GB</div><p style={{marginTop:'-26px',fontWeight:'bold',fontSize:'20px'}}>Data</p>
+                                    </Col>
+                                    <Col>
+                                        <p style={{textAlign:'right'}} className="mt-4"><span style={{textDecoration:'line-through'}}>£2.99</span><br /><span className="curprice">£2.79</span><br />per month</p>
+                                    </Col>
+                                </Row>
+                                <hr className="separator" />
+                                <ul>
+                                    <li>500MB EU Roaming Data</li>
+                                    <li>Calling Minutes<span className="txtred">*</span></li>
+                                    <li>Unlimited Texts<span className="txtred">*</span></li>
+                                    <li>International Calls<span className="txtred">*</span></li>
+                                </ul>
+                                <hr className="separator" />
+                                <div className="text-center"><Link href="#" className="btn btn-outline-danger mb-3 px-4">View plan</Link><br /><Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Stream Seeker</h5>
+                                <hr className="separator" />
+                                <div className="row">
+                                    <div className="col">
+                                        <div className="data">10GB</div><p style={{marginTop:'-26px',fontWeight:'bold',fontSize:'20px'}}>Data</p>
+                                    </div>
+                                    <div className="col">
+                                        <p style={{textAlign:'right'}} className="mt-4"><span style={{textDecoration:'line-through'}}>£7.99</span><br /><span className="curprice">£6.49</span><br />per month</p>
+                                    </div>
+                                </div>
+                                <hr className="separator" />
+                                <ul>
+                                    <li>500MB EU Roaming Data</li>
+                                    <li>Calling Minutes<span className="txtred">*</span></li>
+                                    <li>Unlimited Texts<span className="txtred">*</span></li>
+                                    <li>International Calls<span className="txtred">*</span></li>
+                                </ul>
+                                <hr className="separator" />
+                                <div className="text-center"><Link href="#" className="btn btn-outline-danger mb-3 px-4">View plan</Link><br /><Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+            </Carousel.Item>
+        </Carousel>
+        <HeadBar text='Zoiko Roaming Deals' />
+        <Container className="py-5 simplandeal">
+            <Row>
+                <Col>
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">Day Pass Roaming Zones 2 <span className="txtred">&amp;</span> 3</h5>
+                            <hr className="separator" />
+                            <Row>
+                                <Col>
+                                    <div className="data">500MB</div><p style={{marginTop:'-26px',fontWeight:'bold',fontSize:'20px'}}>Data</p>
+                                </Col>
+                                <Col>
+                                    <p style={{textAlign:'right'}} className="mt-4"><span style={{textDecoration:'line-through'}}>£5.99</span><br /><span className="curprice">£4.99</span><br />per month</p>
+                                </Col>
+                            </Row>
+                            <hr className="separator" />
+                            <ul>
+                                <li>100 Free Texts</li>
+                                <li>100 Minutes Calling</li>
+                                <li>International Calls<span className="txtred">*</span></li>
+                                <li>Out of Bundle Charges 20p per Texts/Minute/MB</li>
+                            </ul>
+                            <hr className="separator" />
+                            <div className="text-center"><Link href="#" className="btn btn-outline-danger mb-3 px-4">View plan</Link><br /><Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                        </div>
+                    </div>
+                </Col>
+                <Col>
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">Day Pass Roaming Zones 4 <span className="txtred">&amp;</span> 5</h5>
+                            <hr className="separator" />
+                            <div className="row">
+                                <div className="col">
+                                    <div className="data">100MB</div><p style={{marginTop:'-26px',fontWeight:'bold',fontSize:'20px'}}>Data</p>
+                                </div>
+                                <div className="col">
+                                    <p style={{textAlign:'right'}} className="mt-4"><span style={{textDecoration:'line-through'}}>£12.99</span><br /><span className="curprice">£10.99</span><br />per month</p>
+                                </div>
+                            </div>
+                            <hr className="separator" />
+                            <ul>
+                                <li>20 Free Texts</li>
+                                <li>20 Minutes Calling</li>
+                                <li>International Calls<span className="txtred">*</span></li>
+                                <li>Out of Bundle Charges 33p per Texts/Minute/MB</li>
+                            </ul>
+                            <hr className="separator" />
+                            <div className="text-center"><Link href="#" className="btn btn-outline-danger mb-3 px-4">View plan</Link><br /><Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                        </div>
+                    </div>
+                </Col>
+            </Row>
+        </Container>
         <Footer />
         </>
     );
