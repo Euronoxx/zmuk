@@ -16,6 +16,9 @@ a.mainmenu {
   color: #DF1E5A !important;
   font-size: 18px !important;
 }
+.carousel-indicators {
+  display: none;
+}
 .separator {
   height: 2px;
   background-color: #0A5A35;
@@ -611,5 +614,8 @@ ul .dropdownmenu li {
     padding: 10px 10px;
     text-align: center;
     font-size: 14px;
+  }
+  .carousel-indicators {
+    display: none;
   }
 }
