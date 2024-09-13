@@ -24,7 +24,7 @@ const header = () => {
                                 <li><Link className="dropdown-item" href="#">Low Income Deals</Link></li>
                                 <li><Link className="dropdown-item" href="#">Student Deals</Link></li>
                                 <li><Link className="dropdown-item" href="/business-deals-data-only-sims">Data Only SIMs</Link></li>
-                                <li><Link className="dropdown-item" href="#">30-Day &apos;No Contract&apos; Plans</Link></li>
+                                <li><Link className="dropdown-item" href="/30-day-plan">30-Day &apos;No Contract&apos; Plans</Link></li>
                                 <li><Link className="dropdown-item" href="#">30-Day Plans With Phones</Link></li>
                                 <li><Link className="dropdown-item" href="#">Contract Plans With Phones</Link></li>
                                 <li><Link className="dropdown-item" href="#">International Calling Plans</Link></li>
