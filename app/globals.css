@@ -518,6 +518,21 @@ ul .dropdownmenu li {
   width: 100%;
   height: auto;
 }
+.civilservant {
+  background-image: url('/img/civilservants.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 20px;
+}
+.civilservant .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.numvlarge {
+  font-size: 80px;
+  line-height: 60px;
+}
 .footer {
   background-image: url('/img/footer-bg.jpeg');
   background-repeat: no-repeat;
@@ -617,5 +632,23 @@ ul .dropdownmenu li {
   }
   .carousel-indicators {
     display: none;
+  }
+  .civilservant {
+    background-image: url('/img/civilservants.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 12px;
+    line-height: 14px;
+    height: 200px;
+  }
+  .civilservant .container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .footerlogo {
+    width: 160px;
+    height: auto;
+    margin-bottom: 20px;
   }
 }
