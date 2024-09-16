@@ -20,7 +20,7 @@ const header = () => {
                             <Link className="nav-link dropdown-toggle mainmenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Zoiko Plans</Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link className="dropdown-item" href='/plans'>All Plans</Link></li>
-                                <li><Link className="dropdown-item" href="#">Public Sector Lifetime Deals</Link></li>
+                                <li><Link className="dropdown-item" href="/civilservants">Public Sector Lifetime Deals</Link></li>
                                 <li><Link className="dropdown-item" href="#">Low Income Deals</Link></li>
                                 <li><Link className="dropdown-item" href="#">Student Deals</Link></li>
                                 <li><Link className="dropdown-item" href="/business-deals-data-only-sims">Data Only SIMs</Link></li>
@@ -35,7 +35,7 @@ const header = () => {
                             <Link className="nav-link dropdown-toggle mainmenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Business Deals</Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link className="dropdown-item" href="#">SIM Only Plans</Link></li>
-                                <li><Link className="dropdown-item" href="#">Data Only SIMs</Link></li>
+                                <li><Link className="dropdown-item" href="/business-deals-data-only-sims">Data Only SIMs</Link></li>
                                 <li><Link className="dropdown-item" href="#">Super-Fast Broadband</Link></li>
                                 <li><Link className="dropdown-item" href="#">Digital Lines</Link></li>
                                 <li><Link className="dropdown-item" href="#">Day Pass Roaming Plans</Link></li>

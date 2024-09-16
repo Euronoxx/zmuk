@@ -13,6 +13,7 @@ const plans = () => {
         <Header />
         <HeadBar text={<>All Plans <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Unlimited Data <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Unlimited SMS <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Unlimited Calls <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Free Interntional Calls</>} />
         <Carouselsimplan />
+        <br />
         <HeadBar text='Zoiko SIM Only Business Deals' />
         <Container fluid className="my-4 simplandeal">
             <Row>

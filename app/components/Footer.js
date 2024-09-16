@@ -10,7 +10,7 @@ const footer = () => {
                 <Row>
                     <div className="col-md-4 col-sm-12 col-xs-12">
                         <Link className="navbar-brand" href="/">
-                            <Image src='/img/zoikomobile_logo.png' width={313} height={130} alt="ZM Logo" />
+                            <Image src='/img/zoikomobile_logo.png' width={313} height={130} className="footerlogo" alt="ZM Logo" />
                         </Link>
                     </div>
                     <div className="col-md-2 col-sm-12 col-xs-12">
