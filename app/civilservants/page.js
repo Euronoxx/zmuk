@@ -13,7 +13,7 @@ function CivilServants () {
                 <Row>
                     <Col>
                         <p>At Zoiko Mobile, we appreciate the hard work and dedication of our public sector workers. As a token of gratitude, we are offering an <span className="txtred">exclusive 30% lifetime discount</span> on any of our SIM-only plans for the public sector workers, and 20% lifetime discount for up to 5 nominated family and friends.</p>
-                        <Link href={'#'} className="btn btn-outline-danger btn-sm">Register Now</Link>
+                        <Link href={'/public-sector-workers-form'} className="btn btn-outline-danger btn-sm">Register Now</Link>
                     </Col>
                     <Col></Col>
                 </Row>
