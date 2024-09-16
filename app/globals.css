@@ -2,6 +2,9 @@ html, body{
   margin:0px;
   padding: 0px;
 }
+.form-check-input {
+  border: 1px solid #1e1e1f !important;
+}
 .body22 {
   font-size: 20px;
   line-height: 24px;
