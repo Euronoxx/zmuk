@@ -536,6 +536,12 @@ ul .dropdownmenu li {
   font-size: 80px;
   line-height: 60px;
 }
+.contactmapbg {
+  background-image: url('/img/contactusbgmap.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .footer {
   background-image: url('/img/footer-bg.jpeg');
   background-repeat: no-repeat;
