@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HeadBar from "../components/HeadBar";
 
-const switchsave = () => {
+const Switchsave = () => {
     const [formData, setFormData] = useState({
         fname: "",
         lname: "",
@@ -141,4 +141,4 @@ const switchsave = () => {
         </>
     );
 };
-export default switchsave;
+export default Switchsave;
