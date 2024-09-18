@@ -6,7 +6,7 @@ import HeadBar from "../components/HeadBar";
 import Image from "next/image";
 import React, { useState } from "react";
 
-const contact = () => {
+const Contact = () => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -71,4 +71,4 @@ const contact = () => {
         </>
     );
 };
-export default contact;
+export default Contact;
