@@ -64,7 +64,7 @@ const Contact = () => {
                         </Card>
                     </div>
                     <div className="col-md-3 col-sm-12">
-                    <Card className="p-2">
+                        <Card className="p-2">
                             <Image src={'/img/glasgow.png'} width={300} height={140} alt="Tower" style={{width:'100%'}} />
                             <Card.Body>
                                 <Card.Title className="txtred text-center">Glasgow</Card.Title>
@@ -73,7 +73,7 @@ const Contact = () => {
                         </Card>
                     </div>
                     <div className="col-md-3 col-sm-12">
-                    <Card className="p-2">
+                        <Card className="p-2">
                             <Image src={'/img/cardiff.png'} width={300} height={140} alt="Tower" style={{width:'100%'}} />
                             <Card.Body>
                                 <Card.Title className="txtred text-center">Cardiff</Card.Title>

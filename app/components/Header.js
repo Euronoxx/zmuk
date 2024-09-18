@@ -21,7 +21,7 @@ const header = () => {
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link className="dropdown-item" href='/plans'>All Plans</Link></li>
                                 <li><Link className="dropdown-item" href="/civilservants">Public Sector Lifetime Deals</Link></li>
-                                <li><Link className="dropdown-item" href="#">Low Income Deals</Link></li>
+                                <li><Link className="dropdown-item" href="/zoiko-saver-deals">Low Income Deals</Link></li>
                                 <li><Link className="dropdown-item" href="#">Student Deals</Link></li>
                                 <li><Link className="dropdown-item" href="/business-deals-data-only-sims">Data Only SIMs</Link></li>
                                 <li><Link className="dropdown-item" href="/30-day-plan">30-Day &apos;No Contract&apos; Plans</Link></li>
