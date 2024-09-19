@@ -26,7 +26,7 @@ function PublicSectorForm () {
         consent: false,
         consector: false,
         confrm: false
-    })
+    });
 
     const handleChange = (e) => {
         setSelectedValue(e.target.value);

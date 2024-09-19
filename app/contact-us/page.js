@@ -14,7 +14,7 @@ const Contact = () => {
         email: "",
         mobile: "",
         msg: ""
-    })
+    });
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target
         setFormData({
