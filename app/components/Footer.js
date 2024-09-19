@@ -18,8 +18,8 @@ const footer = () => {
                         <ul>
                             <li><Link href="/plans">Zoiko Mobile Plans</Link></li>
                             <li><Link href="#">Business SIM Deals</Link></li>
-                            <li><Link href="#">Data Only SIMs</Link></li>
-                            <li><Link href="#">30-Day Plans</Link></li>
+                            <li><Link href="/business-deals-data-only-sims">Data Only SIMs</Link></li>
+                            <li><Link href="/30-day-plan">30-Day Plans</Link></li>
                             <li><Link href="#">Coverage Checker</Link></li>
                         </ul>
                     </div>
@@ -46,7 +46,7 @@ const footer = () => {
                             <li><Link href="#">Blogs</Link></li>
                             <li><Link href="#">News</Link></li>
                             <li><Link href="#">FAQs</Link></li>
-                            <li><Link href="#">Contact Us</Link></li>
+                            <li><Link href="/contact-us">Contact Us</Link></li>
                             <li className="dropdown"><Link href="">Useful Resources <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
                                     <li><Link href="#">UK Retirement Resources</Link></li>
