@@ -6,6 +6,7 @@ import HeadBar from "../components/HeadBar";
 import React, { useState } from "react";
 
 function PublicSectorForm () {
+    const [errors, setErrors] = useState({});
     const [selectedValue, setSelectedValue] = useState('');
     const [formData, setFormData] = useState({
         name: "",
@@ -35,9 +36,27 @@ function PublicSectorForm () {
           [name]: type === "checkbox" ? checked : value,
         })
     }
-
+    const validate = () => {
+        let formErrors = {}
+    
+        if (!formData.name) formErrors.name = "Name is required"
+        if (!formData.dob) formErrors.dob = "DOB is required"
+        if (!formData.phno) formErrors.phno = "Phone is required"
+        if (!formData.email) {
+          formErrors.email = "Email is required"
+        } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+          formErrors.email = "Email address is invalid"
+        }
+        if (!formData.consent) formErrors.consent = "Consent is required"
+        if (!formData.consector) formErrors.consector = "Confirmation is required"
+        if (!formData.confrm) formErrors.confrm = "Confirmation is required"
+    
+        setErrors(formErrors)
+        return Object.keys(formErrors).length === 0
+    }
     const onSubmit  = async (e) => {
         e.preventDefault()
+        if (!validate()) return
         console.log(formData)
     }
     
@@ -54,20 +73,24 @@ function PublicSectorForm () {
                         <div className="col-md-5 offset-md-1">
                             <label>Full Name</label>
                             <input type="text" name="name" className="form-control" onChange={handleChange} value={formData.name} />
+                            {errors.name && <p className="txtred">{errors.name}</p>}
                         </div>
                         <div className="col-md-5">
                             <label>Email Address</label>
                             <input type="email" name="email" className="form-control" onChange={handleChange} value={formData.email} />
+                            {errors.email && <p className="txtred">{errors.email}</p>}
                         </div>
                     </Row>
                     <Row className="py-2">
                         <div className="col-md-5 offset-md-1">
                             <label>Phone Number</label>
                             <input type="text" name="phno" className="form-control" onChange={handleChange} value={formData.phno} />
+                            {errors.phno && <p className="txtred">{errors.phno}</p>}
                         </div>
                         <div className="col-md-5">
                             <label>Date of Birth</label>
                             <input type="date" name="dob" className="form-control" onChange={handleChange} value={formData.dob} />
+                            {errors.dob && <p className="txtred">{errors.dob}</p>}
                         </div>
                     </Row>
                     <h3 className="green18 text-center mt-4">Your Employment Details</h3>
@@ -141,6 +164,7 @@ function PublicSectorForm () {
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                 I agree to the terms &amp; conditions of this offer.
                                 </label>
+                                {errors.consent && <p className="txtred">{errors.consent}</p>}
                             </div>
                         </div>
                     </Row>
@@ -151,6 +175,7 @@ function PublicSectorForm () {
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                 I confirm that I am a public sector worker.
                                 </label>
+                                {errors.consector && <p className="txtred">{errors.consector}</p>}
                             </div>
                         </div>
                     </Row>
@@ -161,6 +186,7 @@ function PublicSectorForm () {
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                 By submitting this form, I confirm that the information provided is accurate and I agree to the terms and conditions of this offer.
                                 </label>
+                                {errors.confrm && <p className="txtred">{errors.confrm}</p>}
                             </div>
                         </div>
                     </Row>
