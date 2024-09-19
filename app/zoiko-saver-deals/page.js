@@ -17,7 +17,7 @@ function SaverDeals () {
                         <p><span className="bigred">Zoiko Saver Deals</span><br />
                         <span className="green18">A Comprehensive Plan for Low-Income Individuals &amp; Families</span><br />
                         Zoiko Saver Deals aims to provide affordable and reliable mobile, broadband, and digital phone services to individuals on low income or Benefits. By offering competitive pricing and flexible packages, Zoiko Mobile ensures that everyone stays connected without breaking the bank.</p>
-                        <Link href={'#'} className="btn btn-outline-danger btn-sm">Register Now</Link>
+                        <Link href={'/zoiko-saver-deals-application-form'} className="btn btn-outline-danger btn-sm">Register Now</Link>
                     </Col>
                     <Col></Col>
                 </Row>
