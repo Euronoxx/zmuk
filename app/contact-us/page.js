@@ -8,6 +8,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 const Contact = () => {
+    const [errors, setErrors] = useState({});
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -21,9 +22,24 @@ const Contact = () => {
           [name]: type === "checkbox" ? checked : value,
         })
     }
-
+    const validate = () => {
+        let formErrors = {}
+    
+        if (!formData.name) formErrors.name = "Name is required"
+        if (!formData.mobile) formErrors.mobile = "Mobile is required"
+        if (!formData.email) {
+          formErrors.email = "Email is required"
+        } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+          formErrors.email = "Email address is invalid"
+        }
+        if (!formData.msg) formErrors.msg = "Message is required"
+    
+        setErrors(formErrors)
+        return Object.keys(formErrors).length === 0
+    }
     const onSubmit  = async (e) => {
         e.preventDefault()
+        if (!validate()) return
         console.log(formData)
     }
     return (
@@ -39,12 +55,16 @@ const Contact = () => {
                     <h3 className="green18 mb-4">If you have any questions, at Zoiko Mobile we pride ourselves in providing tailored solutions within the shortest possible time.</h3>
                     <Form onSubmit={onSubmit}>
                         <input type="text" name="name" className="form-control" onChange={handleChange} value={formData.name} placeholder="Name" />
+                        {errors.name && <p className="txtred">{errors.name}</p>}
                         <br />
                         <input type="email" name="email" className="form-control" onChange={handleChange} value={formData.email} placeholder="Email" />
+                        {errors.email && <p className="txtred">{errors.email}</p>}
                         <br />
                         <input type="text" name="mobile" className="form-control" onChange={handleChange} value={formData.mobile} placeholder="Mobile no" />
+                        {errors.mobile && <p className="txtred">{errors.mobile}</p>}
                         <br />
                         <textarea name="msg" className="form-control" onChange={handleChange} value={formData.msg}></textarea>
+                        {errors.msg && <p className="txtred">{errors.msg}</p>}
                         <br />
                         <input type="submit" name="submit" value="Send Message" className="btn btn-outline-success btn-lg" />
                     </Form>
