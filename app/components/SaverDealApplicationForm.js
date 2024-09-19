@@ -23,7 +23,7 @@ function SaverDealApplicationForm () {
         plandetail: "",
         consent: false,
         terms: false
-    })
+    });
     const handleChange = (e) => {
         setSelectedValue(e.target.value);
         const { name, value, type, checked } = e.target
@@ -32,7 +32,6 @@ function SaverDealApplicationForm () {
           [name]: type === "checkbox" ? checked : value,
         })
     }
-
     const validate = () => {
         let formErrors = {}
     
