@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Form, Card, CardBody } from "react-bootstrap";
 
 function SaverDealApplicationForm () {
+    const [errors, setErrors] = useState({});
     const [selectedValue, setSelectedValue] = useState('');
     const [formData, setFormData] = useState({
         fname: "",
@@ -32,9 +33,32 @@ function SaverDealApplicationForm () {
         })
     }
 
+    const validate = () => {
+        let formErrors = {}
+    
+        if (!formData.fname) formErrors.name = "Name is required"
+        if (!formData.dob) formErrors.dob = "DOB is required"
+        if (!formData.addr) formErrors.addr = "Address is required"
+        if (!formData.city) formErrors.city = "City is required"
+        if (!formData.mobile) formErrors.mobile = "City is required"
+        if (!formData.terms) formErrors.terms = "Agreement is required"
+        if (!formData.plantype) formErrors.plantype = "Please select plan type"
+        if (!formData.plandetail) formErrors.plandetail = "Please select package type"
+        if (!formData.email) {
+          formErrors.email = "Email is required"
+        } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+          formErrors.email = "Email address is invalid"
+        }
+        if (!formData.consent) formErrors.consent = "Consent is required"
+    
+        setErrors(formErrors)
+        return Object.keys(formErrors).length === 0
+    }
+
     const onSubmit  = async (e) => {
         e.preventDefault()
-        console.log(formData)
+        if (!validate()) return
+        console.log(formData);
     }
     return (
         <>
@@ -47,10 +71,12 @@ function SaverDealApplicationForm () {
                             <div className="col-md-6 col-sm-12">
                                 <label htmlFor="fname">Full Name</label>
                                 <input type="text" name="fname" className="form-control" onChange={handleChange} value={formData.fname} />
+                                {errors.name && <p className="txtred">{errors.name}</p>}
                             </div>
                             <div className="col-md-6 col-sm-12">
                                 <label htmlFor="dob">Date of Birth</label>
                                 <input type="date" name="dob" className="form-control" onChange={handleChange} value={formData.dob} />
+                                {errors.dob && <p className="txtred">{errors.dob}</p>}
                             </div>
                         </Row>
                         <br />
@@ -58,10 +84,12 @@ function SaverDealApplicationForm () {
                             <div className="col-md-6 col-sm-12">
                                 <label htmlFor="arrd">Street Address</label>
                                 <input type="text" name="addr" className="form-control" onChange={handleChange} value={formData.addr} />
+                                {errors.addr && <p className="txtred">{errors.addr}</p>}
                             </div>
                             <div className="col-md-6 col-sm-12">
                                 <label htmlFor="city">City</label>
                                 <input type="text" name="city" className="form-control" onChange={handleChange} value={formData.city} />
+                                {errors.city && <p className="txtred">{errors.city}</p>}
                             </div>
                         </Row>
                         <br />
@@ -69,10 +97,12 @@ function SaverDealApplicationForm () {
                             <div className="col-md-6 col-sm-12">
                                 <label htmlFor="mobile">Contact Number</label>
                                 <input type="text" name="mobile" className="form-control" onChange={handleChange} value={formData.mobile} />
+                                {errors.mobile && <p className="txtred">{errors.mobile}</p>}
                             </div>
                             <div className="col-md-6 col-sm-12">
                                 <label htmlFor="email">Email</label>
                                 <input type="email" name="email" className="form-control" onChange={handleChange} value={formData.email} />
+                                {errors.email && <p className="txtred">{errors.email}</p>}
                             </div>
                         </Row>
                         <br />
@@ -163,6 +193,7 @@ function SaverDealApplicationForm () {
                                     <option value={'phoneplans'}>Phone Plans</option>
                                     <option value={'comboplans'}>Combo Plans</option>
                                 </select>
+                                {errors.plantype && <p className="txtred">{errors.plantype}</p>}
                             </div>
                             <div className="col-md-6 col-sm-12">
                                 <small>Plan Detail</small>
@@ -179,6 +210,7 @@ function SaverDealApplicationForm () {
                                     <option value={'combo2'}>Zoiko Saver Combo 2(£30.00/month)</option>
                                     <option value={'complete'}>Zoiko Saver Complete(£19.50/month)</option>
                                 </select>
+                                {errors.plandetail && <p className="txtred">{errors.plandetail}</p>}
                             </div>
                         </Row>
                         <br />
@@ -187,6 +219,7 @@ function SaverDealApplicationForm () {
                             <label className="form-check-label" htmlFor="consent">
                             I hereby declare that the information provided is accurate and complete to the best of my knowledge. I understand that providing false information may result in the termination of services.
                             </label>
+                            {errors.consent && <p className="txtred">{errors.consent}</p>}
                         </div>
                         <br />
                         <div className="form-check">
@@ -194,6 +227,7 @@ function SaverDealApplicationForm () {
                             <label className="form-check-label" htmlFor="terms">
                             By submitting this form, you agree to Zoiko Saver Deals&apos; terms and conditions
                             </label>
+                            {errors.terms && <p className="txtred">{errors.terms}</p>}
                         </div>
                         <br />
                         <input type="submit" name="submit" value={'Submit your registration'} className="btn btn-outline-danger" />
