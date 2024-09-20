@@ -26,7 +26,7 @@ function SaverDeals () {
         <HeadBar text="SIM Only Plans" />
         <Container className="pt-4">
             <h2 className="green24bold text-center mb-5">Select Contract Duration</h2>
-            <ul className="nav nav-tabs nav-justified" role="tablist">
+            <ul className="nav nav-tabs" role="tablist" style={{justifyContent:'center'}}>
                 <li className="nav-item" role="presentation">
                     <Link className="nav-link active" id="justified-tab-0" data-bs-toggle="tab" href="#24month" role="tab" aria-controls="justified-tabpanel-0" aria-selected="true"> 24 Months </Link>
                 </li>
@@ -282,7 +282,7 @@ function SaverDeals () {
         <HeadBar text="Broadband" />
         <Container className="pt-4">
             <h2 className="green24bold text-center mb-5">Select Contract Duration</h2>
-            <ul className="nav nav-tabs nav-justified" role="tablist">
+            <ul className="nav nav-tabs" role="tablist" style={{justifyContent:'center'}}>
                 <li className="nav-item" role="presentation">
                     <Link className="nav-link active" id="justified-tab-0" data-bs-toggle="tab" href="#24broadband" role="tab" aria-controls="justified-tabpanel-0" aria-selected="true"> 24 Months </Link>
                 </li>
@@ -469,7 +469,7 @@ function SaverDeals () {
         <HeadBar text="Digital Lines" />
         <Container className="pt-4">
             <h2 className="green24bold text-center mb-5">Select Contract Duration</h2>
-            <ul className="nav nav-tabs nav-justified" role="tablist">
+            <ul className="nav nav-tabs" role="tablist" style={{justifyContent:'center'}}>
                 <li className="nav-item" role="presentation">
                     <Link className="nav-link active" id="justified-tab-0" data-bs-toggle="tab" href="#60digital" role="tab" aria-controls="justified-tabpanel-0" aria-selected="true"> 60 Months </Link>
                 </li>

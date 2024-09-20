@@ -13,7 +13,7 @@ export default function SimBusinessDeal () {
         <HeadBar text='Data Only SIMs' />
         <Container className="py-4">
             <h2 className="text-center py-4 green24bold">Select Contract Duration</h2>
-            <ul className="nav nav-tabs nav-justified" role="tablist">
+            <ul className="nav nav-tabs" role="tablist" style={{justifyContent:'center'}}>
                 <li className="nav-item" role="presentation">
                     <Link className="nav-link active" id="justified-tab-0" data-bs-toggle="tab" href="#home" role="tab" aria-controls="justified-tabpanel-0" aria-selected="true"> 24 Month Plan </Link>
                 </li>
