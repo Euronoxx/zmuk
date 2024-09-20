@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 import { Container, Row, Form, Card, CardBody } from "react-bootstrap";
 
@@ -26,7 +27,7 @@ function StudentDiscountForm () {
         duration: false,
         expiration: false,
         accurateinfo: false,
-        signature: "",
+        signat: "",
         sigdt: ""
     });
     const handleChange = (e) => {
@@ -42,8 +43,8 @@ function StudentDiscountForm () {
     
         if (!formData.fname) formErrors.name = "Name is required"
         if (!formData.dob) formErrors.dob = "DOB is required"
-        if (!formData.mobile) formErrors.mobile = "City is required"
-        if (!formData.terms) formErrors.terms = "Agreement is required"
+        if (!formData.mobile) formErrors.mobile = "Mobile is required"
+        if (!formData.declare) formErrors.declare = "Agreement is required"
         if (!formData.plantype) formErrors.plantype = "Please select plan type"
         if (!formData.plandetail) formErrors.plandetail = "Please select package type"
         if (!formData.email) {
@@ -183,11 +184,11 @@ function StudentDiscountForm () {
                             {errors.consent && <p className="txtred">{errors.consent}</p>}
                         </div>
                         <div className="form-check">
-                            <input className="form-check-input" type="checkbox" name="declare" onChange={handleChange} value={formData.terms} />
-                            <label className="form-check-label" htmlFor="terms">
+                            <input className="form-check-input" type="checkbox" name="declare" onChange={handleChange} value={formData.declare} />
+                            <label className="form-check-label" htmlFor="declare">
                             I hereby declare that the information provided in this form is accurate and complete to the best of my knowledge.
                             </label>
-                            {errors.terms && <p className="txtred">{errors.terms}</p>}
+                            {errors.declare && <p className="txtred">{errors.declare}</p>}
                         </div>
                         <div className="form-check">
                             <input className="form-check-input" type="checkbox" name="discount" onChange={handleChange} value={formData.discount} />
@@ -227,9 +228,9 @@ function StudentDiscountForm () {
                         <br />
                         <Row>
                             <div className="col-md-6 col-sm-12">
-                                <label htmlFor="signature">Signature</label>
-                                <input type="text" name="signature" className="form-control" onChange={handleChange} value={formData.signature} />
-                                {errors.signature && <p className="txtred">{errors.signature}</p>}
+                                <label htmlFor="signat">Signature</label>
+                                <input type="text" name="signat" className="form-control" onChange={handleChange} value={formData.signat} />
+                                {errors.signat && <p className="txtred">{errors.signat}</p>}
                             </div>
                             <div className="col-md-6 col-sm-12">
                                 <label htmlFor="sigdt">Date</label>
@@ -240,6 +241,7 @@ function StudentDiscountForm () {
                         <br />
                         <input type="submit" name="submit" value={'Submit'} className="btn btn-outline-danger" />
                     </Form>
+                    <p className="py-4">Please submit this form, including your uploaded student ID, for verification. If you have any questions or require further assistance, please contact our customer support at <Link href={'mailto:support@zoikomobile.co.uk'} className="txtred">support@zoikomobile.co.uk</Link>. Thank you for choosing ZoikoMobile.</p>
                 </CardBody>
             </Card>
         </Container>
