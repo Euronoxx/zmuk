@@ -532,6 +532,17 @@ ul .dropdownmenu li {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.studentdiscount {
+  background-image: url('/img/student-discount-banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 20px;
+}
+.studentdiscount .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .saverdeal {
   background-image: url('/img/low-income-deals-banner.png');
   background-repeat: no-repeat;
@@ -670,5 +681,10 @@ ul .dropdownmenu li {
     width: 160px;
     height: auto;
     margin-bottom: 20px;
+  }
+  .studentdiscount .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
   }
 }
