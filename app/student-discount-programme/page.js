@@ -80,7 +80,7 @@ function StudentDiscount () {
                     <p>Zoiko Mobile is dedicated to helping students stay connected, save money, and make network switching in the UK a seamless process. Join us today to experience affordable, high-quality mobile services while focusing on your studies and social life. Stay connected, stay smart, and stay within your budget with Zoiko Mobile.</p>
                 </div>
                 <div className="col-md-3 col-sm-12 text-center">
-                    <Link href={"#"} className="btn btn-outline-danger btn-sm mt-4">Browse Plans Now</Link>
+                    <Link href={"/plan"} className="btn btn-outline-danger btn-sm mt-4">Browse Plans Now</Link>
                 </div>
             </Row>
             <br />
@@ -102,7 +102,7 @@ function StudentDiscount () {
             </ul>
             <p className="text-center my-4">This offer can be used in conjunction with other promotional offers from Zoiko Mobile.</p>
             <div className="text-center">
-                <Link href={'#'} className="btn btn-outline-danger px-5">Join Now</Link><Link href={'#'} className="btn btn-outline-danger px-5 mx-5">Switch &amp; Save</Link>
+                <Link href={'/login'} className="btn btn-outline-danger px-5">Join Now</Link><Link href={'/zoiko-mobile-switch-save-form'} className="btn btn-outline-danger px-5 mx-5">Switch &amp; Save</Link>
             </div>
         </Container>
         <Footer />
