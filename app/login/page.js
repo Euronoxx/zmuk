@@ -49,7 +49,7 @@ export default function Login () {
                             <p className="green18 text-center">Our cheerful Budgie, Buster, is excited to welcome you to our animal-friendly network!</p>
                         </div>
                         <div className="col-md-7 col-sm-12">
-                            <p className="txtred body22 pt-5">Simply fill in the form below to get started.<br />We promise it's quicker than a Budgie flying to its nest!</p>
+                            <p className="txtred body22 pt-5">Simply fill in the form below to get started.<br />We promise it&apos;s quicker than a Budgie flying to its nest!</p>
                             <Form onSubmit={handleSubmit}>
                                 <label htmlFor="username">Username or Email</label>
                                 <input type="text" name="username" className="form-control" onChange={handleChange} value={formData.username} />
@@ -71,7 +71,7 @@ export default function Login () {
                 </CardBody>
             </Card>
             <h4 className="bigred text-center pt-5">Flock together and share the benefits!</h4>
-            <p className="text-center body22">Our cheerful Budgie, Buster, wants to thank you for sharing the love! Refer a friend to Zoiko Mobile and get a £20 credit for both you and your friend. You'll be singing a happy tune with our fantastic entertainment benefits, including Spotify, Netflix, and Amazon Prime!</p>
+            <p className="text-center body22">Our cheerful Budgie, Buster, wants to thank you for sharing the love! Refer a friend to Zoiko Mobile and get a £20 credit for both you and your friend. You&apos;ll be singing a happy tune with our fantastic entertainment benefits, including Spotify, Netflix, and Amazon Prime!</p>
         </Container>
         <Footer />
         </>
