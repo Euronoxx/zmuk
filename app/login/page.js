@@ -53,11 +53,11 @@ export default function Login () {
                             <Form onSubmit={handleSubmit}>
                                 <label htmlFor="username">Username or Email</label>
                                 <input type="text" name="username" className="form-control" onChange={handleChange} value={formData.username} />
-                                {errors.username && <p className="txtred">{errors.username}</p>}
+                                {errors.username && <small className="txtred">{errors.username}</small>}
                                 <br />
                                 <label htmlFor="passwd">Password</label>
                                 <input type="password" name="passwd" className="form-control" onChange={handleChange} value={formData.passwd} />
-                                {errors.passwd && <p className="txtred">{errors.passwd}</p>}
+                                {errors.passwd && <small className="txtred">{errors.passwd}</small>}
                                 <br />
                                 <input className="form-check-input" type="checkbox" name="remember" onChange={handleChange} value={formData.remember} />&nbsp;
                                 <label className="form-check-label" htmlFor="remember">
