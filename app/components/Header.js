@@ -36,9 +36,9 @@ const header = () => {
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link className="dropdown-item" href="/business-deals-sim-only-plans">SIM Only Plans</Link></li>
                                 <li><Link className="dropdown-item" href="/business-deals-data-only-sims">Data Only SIMs</Link></li>
-                                <li><Link className="dropdown-item" href="#">Super-Fast Broadband</Link></li>
-                                <li><Link className="dropdown-item" href="#">Digital Lines</Link></li>
-                                <li><Link className="dropdown-item" href="#">Day Pass Roaming Plans</Link></li>
+                                <li><Link className="dropdown-item" href="/broadband-deals">Super-Fast Broadband</Link></li>
+                                <li><Link className="dropdown-item" href="/business-deals-digital-lines">Digital Lines</Link></li>
+                                <li><Link className="dropdown-item" href="/business-deals-day-pass-roaming-plans">Day Pass Roaming Plans</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
