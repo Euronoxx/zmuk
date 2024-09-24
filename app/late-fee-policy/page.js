@@ -54,7 +54,7 @@ export default function LateFeePolicy () {
                 <li>
                     <p className="bigred">Review and Amendments:</p>
                     <p>Zoiko Mobile reserves the right to review and amend this Late Fee Policy as needed to align with evolving business practices and regulations. Any changes will be communicated to customers through the appropriate channels.</p>
-                    <p>By using Zoiko Mobile's services, you agree to abide by this Late Fee Policy. We appreciate your business and thank you for your understanding and cooperation in adhering to these guidelines. If you have any questions or require further information, please don't hesitate to contact our customer support team.</p>
+                    <p>By using Zoiko Mobile&apos;s services, you agree to abide by this Late Fee Policy. We appreciate your business and thank you for your understanding and cooperation in adhering to these guidelines. If you have any questions or require further information, please don&apos;t hesitate to contact our customer support team.</p>
                     <p>Zoiko Mobile<br />Berkeley Suite, 35 Berkeley Square,<br />Mayfair, London W1J 5BF<br />Email:info@zoikomobile.co.uk<br />Telephone:+44 2071 646 399<br />Email: <Link href={"mailto:accounts@zoikomobile.co.uk"}>accounts@zoikomobile.co.uk</Link></p>
                 </li>
             </ol>
