@@ -34,7 +34,7 @@ export default function PrivacyPolicy () {
                         </li>
                         <li>
                             <p className="bigred">Improving Our Website:</p>
-                            <p>To enhance and optimise our website's functionality, user experience, and content.</p>
+                            <p>To enhance and optimise our website&apos;s functionality, user experience, and content.</p>
                         </li>
                         <li>
                             <p className="bigred">Marketing and Communications:</p>
