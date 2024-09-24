@@ -68,7 +68,7 @@ const footer = () => {
                             <li><Link href="#">ESG Policy</Link></li>
                             <li className="dropdown"><Link href="#">Zoiko Policies <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
-                                    <li><Link href="#">Privacy Policy</Link></li>
+                                    <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                                     <li><Link href="#">Cookie Policy</Link></li>
                                     <li><Link href="#">Late Fee Policy</Link></li>
                                     <li><Link href="#">Refund Policy</Link></li>
