@@ -24,9 +24,12 @@ export function Animal () {
         <Header />
         <Container>
             <h2>Animal Music Channel</h2>
-                {posts.map((post) => (
-                    <div key={post.id}><h3>{post.title.rendered}</h3><p dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} /></div>
-                ))}
+            {posts.map((post) => (
+                <div key={post.id}>
+                    <h3 dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
+                    <p dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} />
+                </div>
+            ))}
         </Container>
         <Footer />
         </>

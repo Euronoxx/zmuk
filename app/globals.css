@@ -38,6 +38,12 @@ a.mainmenu {
 .carousel-iten .container {
   position: relative;
 }
+.carousel-control-prev-icon {
+  background-color: rgb(128, 128, 128);
+}
+.carousel-control-next-icon {
+  background-color: rgb(128, 128, 128);
+}
 .btnbox {
   position: absolute;
   bottom: 30px;
@@ -669,9 +675,6 @@ ul .dropdownmenu li {
     padding: 10px 10px;
     text-align: center;
     font-size: 14px;
-  }
-  .carousel-indicators {
-    display: none;
   }
   .civilservant {
     background-image: url('/img/civilservants.webp');
