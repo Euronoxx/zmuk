@@ -50,7 +50,7 @@ const header = () => {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link mainmenu" href="animal-music-channel">Animal &amp; Music</Link>
+                            <Link className="nav-link mainmenu" href="/animal-music-channel">Animal &amp; Music</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link mainmenu" href="/about-us">About Us</Link>

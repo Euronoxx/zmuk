@@ -1,0 +1,163 @@
+{
+    "phones": [
+        {
+            "id": 1,
+            "name": "Galaxy S22+ 5G",
+            "price": "£397.59",
+            "condition": [
+                "A2-Excellent"
+            ],
+            "color": [
+                "pink gold"
+            ],
+            "storage": [
+                "128GB",
+                "256GB"
+            ],
+            "quality": "Premium Quality",
+            "image": "/img/galaxy-s22.jpg"
+        },
+        {
+            "id": 2,
+            "name": "iPhone 13 Pro Max",
+            "price": "£700.25",
+            "condition": [
+                "A2-Excellent"
+            ],
+            "color": [
+                "green"
+            ],
+            "storage": [
+                "256GB"
+            ],
+            "quality": "Premium Quality",
+            "image": "/img/iphone-14-pro-max-black.jpg"
+        },
+        {
+            "id": 3,
+            "name": "iPhone 12 Pro Max",
+            "price": "£566.25",
+            "condition": [
+                "A2-Excellent"
+            ],
+            "color": [
+                "graphite"
+            ],
+            "storage": [
+                "256GB"
+            ],
+            "quality": "Premium Quality",
+            "image": "/img/iphone-12-pro-max-graphite.jpg"
+        },
+        {
+            "id": 4,
+            "name": "iPhone 12 Mini",
+            "price": "£277.25",
+            "condition": [
+                "A1-Flawless",
+                "A2-Excellent"
+            ],
+            "color": [
+                "black",
+                "blue",
+                "red"
+            ],
+            "storage": [
+                "256GB",
+                "128GB",
+                "64GB"
+            ],
+            "quality": "Premium Quality",
+            "image": "/img/iphone-12-mini.jpg"
+        },
+        {
+            "id": 5,
+            "name": "iPhone 11 Pro",
+            "price": "£328.25",
+            "condition": [
+                "A1-Flawless",
+                "A2-Excellent"
+            ],
+            "color": [
+                "gold",
+                "grey",
+                "green",
+                "silver"
+            ],
+            "storage": [
+                "256GB",
+                "128GB",
+                "512GB",    
+                "64GB"
+            ],
+            "quality": "Premium Quality",
+            "image": "/img/iphone-11-pro.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Galaxy S23+",
+            "price": "£576.25",
+            "condition": [
+                "A1-Flawless",
+                "A2-Excellent"
+            ],
+            "color": [
+                "lavender"
+            ],
+            "storage": [
+                "256GB"
+            ],
+            "quality": "Premium Quality",
+            "image": "/img/Galaxy-s23.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Galaxy S23 FE",
+            "price": "£402.25",
+            "condition": [
+                "A1-Flawless",
+                "A2-Excellent"
+            ],
+            "color": [
+                "graphite"
+            ],
+            "storage": [
+                "128GB"
+            ],
+            "quality": "Premium Quality",
+            "image": "/img/galaxy-s23-fe.jpg"
+        },
+        {
+            "id": 8,
+            "name": "iPhone SE 3",
+            "price": "£260.25",
+            "condition": [
+                "A2-Excellent"
+            ],
+            "color": [
+                "red"
+            ],
+            "storage": [
+                "64GB"
+            ],
+            "quality": "Premium Quality",
+            "image": "/img/iphone-se3.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Pixel 8 Pro",
+            "price": "£587.99",
+            "condition": [
+                "A2-Excellent"
+            ],
+            "color": [
+                "obsidian"
+            ],
+            "storage": [
+                "128GB"
+            ],
+            "quality": "Premium Quality",
+            "image": "/img/pixel-8-pro.jpg"
+        }
+    ]
+}

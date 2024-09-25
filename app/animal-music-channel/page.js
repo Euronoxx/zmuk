@@ -25,7 +25,7 @@ export function Animal () {
         <Container>
             <h2>Animal Music Channel</h2>
                 {posts.map((post) => (
-                    <div key={post.id}><h3>{post.title.rendered}</h3>{post.excerpt.rendered}</div>
+                    <div key={post.id}><h3>{post.title.rendered}</h3><p dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} /></div>
                 ))}
         </Container>
         <Footer />
