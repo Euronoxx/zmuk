@@ -23,7 +23,7 @@ export default function Refurbished () {
                         Peck Up A Fantastic Deal On Refurbished Smartphones!
                         </div>
                         <p className="green18 pt-4">Our Clever Chicken, Charlie, Has Scratched Out A Section Of Top-Quality Refurbished Phones For You!</p>
-                        <p className="green18">From Sleek Design To Lightning-Fast Processors, Our Refurbished Smartphones Have Got It All. And With Charlie&apos;s Expert Eye, You Can Trust You're Getting A Device That&apos;s Egg-Cellent Value For Money.</p>
+                        <p className="green18">From Sleek Design To Lightning-Fast Processors, Our Refurbished Smartphones Have Got It All. And With Charlie&apos;s Expert Eye, You Can Trust You&apos;re Getting A Device That&apos;s Egg-Cellent Value For Money.</p>
                         <Link href={'/login'} className="txtred body22">Browse Our Range Today And Cluck Your Way To A Fantastic Deal!</Link>
                     </div>
                     <div className="col-md-4 col-sm-12">
