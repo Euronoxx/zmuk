@@ -1,5 +1,5 @@
 "use client"
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import HeadBar from "../../components/HeadBar";
@@ -8,37 +8,33 @@ import HeadBarSmall from "@/app/components/HeadBarSmall";
 import Image from "next/image";
 import data from '../../products/mobiledata.json';
 
-export default function ContractPlanMobile () {
+export default function Refurbished () {
+    
     return (
         <>
         <Header />
-        <HeadBar text="Get Trend-setting Smartphones With Flexible Monthly Contracts!" />
+        <HeadBar text={<>Discover Premium Quality Refurbished Smartphones <span className="txtred">@</span> Zoiko Mobile</>} />
         <Container className="py-4">
             <HeadBarSmall text="--" />
             <div className="announcebox">
                 <Row>
                     <div className="col-md-8 col-sm-12 p-4">
                         <div className="bigred">
-                        Get a Honk-tastic deal with our Contract Plans and smartphones!
+                        Peck Up A Fantastic Deal On Refurbished Smartphones!
                         </div>
-                        <p className="green18 pt-4">Our loyal goose, Gerald, has waddled in with some fantastic offers:</p>
-                        <p className="green18">
-                        <i className="bi bi-music-note-beamed txtred"></i> Affordable phones with no strings attached<br />
-                        <i className="bi bi-music-note-beamed txtred"></i> Flexible Contract Plans to suit your needs<br />
-                        <i className="bi bi-music-note-beamed txtred"></i> Generous data, calls, and texts to keep you connected<br />
-                        <i className="bi bi-music-note-beamed txtred"></i> Loyalty rewards and discounts with our Goose Loyalty Programme
-                        </p>
-                        <Link href={'/login'} className="txtred body22">Don&apos;t be a featherbrain, grab a deal today and stay connected with Zoiko Mobile!</Link>
+                        <p className="green18 pt-4">Our Clever Chicken, Charlie, Has Scratched Out A Section Of Top-Quality Refurbished Phones For You!</p>
+                        <p className="green18">From Sleek Design To Lightning-Fast Processors, Our Refurbished Smartphones Have Got It All. And With Charlie&apos;s Expert Eye, You Can Trust You're Getting A Device That&apos;s Egg-Cellent Value For Money.</p>
+                        <Link href={'/login'} className="txtred body22">Browse Our Range Today And Cluck Your Way To A Fantastic Deal!</Link>
                     </div>
                     <div className="col-md-4 col-sm-12">
-                        <Image src={"/img/duck.png"} width={400} height={400} alt="Red Fox" style={{width:'100%', height:'auto'}} />
+                        <Image src={"/img/birdbuddy.png"} width={400} height={400} alt="Red Fox" style={{width:'100%', height:'auto'}} />
                     </div>
                 </Row>
             </div>
         </Container>
         <Container className="p-5">
             <p className="green18">Showing 9 Products out of 9</p>
-            <Row className="d-flex flex-lg-row flex-column">
+            <Row>
                 {data.phones.map((item) => (
                     <Col key={item.id} md={4}>
                         <Card className="p-4 mb-4" style={{height:'400px'}}>

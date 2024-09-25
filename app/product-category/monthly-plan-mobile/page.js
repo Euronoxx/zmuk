@@ -44,18 +44,18 @@ export default function MonthlyPlanMobile () {
                         <Card className="p-4 mb-4" style={{height:'400px'}}>
                             <h3 dangerouslySetInnerHTML={{ __html: item.name }} className="green24bold" />
                             <Row>
-                                <Col md={6}>
+                                <Col md={6} sm={6} xs={6}>
                                     Starting From:<p dangerouslySetInnerHTML={{ __html: item.price }} className="txtred" style={{fontSize:'14px'}} />
                                 </Col>
-                                <Col md={6}>
+                                <Col md={6} sm={6} xs={6}>
                                     Device condition:<p dangerouslySetInnerHTML={{ __html: item.condition }} style={{fontSize:'14px'}} />
                                 </Col>
                             </Row>
                             <Row>
-                                <Col md={6}>
+                                <Col md={6} sm={6} xs={6}>
                                     <Image src={item.image} alt={item.name} width={130} height={180} />
                                 </Col>
-                                <Col md={6}>
+                                <Col md={6} sm={6} xs={6}>
                                     Available colors:<p dangerouslySetInnerHTML={{ __html: item.color }} style={{fontSize:'14px'}} />
                                     Internal Storage:<p dangerouslySetInnerHTML={{ __html: item.storage }} style={{fontSize:'14px'}} />
                                     <p dangerouslySetInnerHTML={{ __html: item.quality }} style={{fontSize:'14px'}} />

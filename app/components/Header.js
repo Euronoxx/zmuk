@@ -44,7 +44,7 @@ const header = () => {
                         <li className="nav-item dropdown">
                             <Link className="nav-link dropdown-toggle mainmenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Devices</Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link className="dropdown-item" href="#">Refurbished Smartphones</Link></li>
+                                <li><Link className="dropdown-item" href="/product-category/refurbished">Refurbished Smartphones</Link></li>
                                 <li><Link className="dropdown-item" href="#">Tablets</Link></li>
                                 <li><Link className="dropdown-item" href="#">Accessories</Link></li>
                             </ul>
