@@ -19,6 +19,14 @@ a.mainmenu {
   color: #DF1E5A !important;
   font-size: 18px !important;
 }
+.nav-item.widemenu {
+  position: inherit;
+}
+.mgwidemenu {
+  width: 100%;
+  transform: translate(0px, -10px);
+  background-color: #d2d2d2;
+}
 .carousel-indicators {
   display: none;
 }
@@ -364,6 +372,20 @@ a.mainmenu {
 .green18 {
   color: #0A5A35;
   font-size: 22px;
+}
+.txtgreen {
+  color: #0A5A35;
+}
+.menulist {
+  list-style-type: none;
+  margin-left: -30px;
+}
+.menulist a {
+  text-decoration: none;
+  color: inherit;
+}
+.menulist a:hover {
+  color: #DF1E5A;
 }
 .bigred {
   color: #DF1E5A;
