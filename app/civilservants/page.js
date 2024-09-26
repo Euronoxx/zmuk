@@ -79,7 +79,7 @@ function CivilServants () {
                     <p>Take advantage of this exclusive offer and enjoy significant saving on your mobile plan. Browse our plans today and start saving with Zoiko Mobile.</p>
                 </div>
                 <div className="col-md-3 col-sm-12 text-center">
-                    <Link href={"#"} className="btn btn-outline-danger btn-sm mt-4">Browse Plans Now</Link>
+                    <Link href={"/plan"} className="btn btn-outline-danger btn-sm mt-4">Browse Plans Now</Link>
                 </div>
             </Row>
             <br />
