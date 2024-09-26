@@ -38,7 +38,7 @@ export default function ContractPlanMobile () {
         </Container>
         <Container className="p-5">
             <p className="green18">Showing 9 Products out of 9</p>
-            <Row className="d-flex flex-lg-row flex-column">
+            <Row>
                 {data.phones.map((item) => (
                     <Col key={item.id} md={4}>
                         <Card className="p-4 mb-4" style={{height:'400px'}}>

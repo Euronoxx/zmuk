@@ -1,5 +1,5 @@
 "use client"
-import { Card, CardBody, Container, Form, Row } from "react-bootstrap";
+import { Button, Card, CardBody, Container, Form, Row } from "react-bootstrap";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HeadBar from "../components/HeadBar";
@@ -59,12 +59,12 @@ export default function Login () {
                                 <input type="password" name="passwd" className="form-control" onChange={handleChange} value={formData.passwd} />
                                 {errors.passwd && <small className="txtred">{errors.passwd}</small>}
                                 <br />
-                                <input className="form-check-input" type="checkbox" name="remember" onChange={handleChange} value={formData.remember} />&nbsp;
+                                <input className="form-check-input mb-4" type="checkbox" name="remember" onChange={handleChange} value={formData.remember} />&nbsp;
                                 <label className="form-check-label" htmlFor="remember">
                                 Remember me
                                 </label>
                                 <br />
-                                <input type="submit" name="submit" value={'Login'} className="btn btn-outline-danger mt-4" />
+                                <input type="submit" name="submit" value={'Login'} className="btn btn-outline-danger" /> &nbsp; <Button variant="outline-danger" href="/register">Register</Button>
                             </Form>
                         </div>
                     </Row>
