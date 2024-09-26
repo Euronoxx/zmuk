@@ -109,7 +109,7 @@ const Header = () => {
                                                     <li>Bundled Offers</li>
                                                     <li>Free International Calls</li>
                                                     <li>Out-of-Bundle Rates</li>
-                                                    <li>Public Sector Lifetime Deals</li>
+                                                    <li><Link href={"/civilservants"}>Public Sector Lifetime Deals</Link></li>
                                                 </ul>
                                             </p>
                                         </Col>
