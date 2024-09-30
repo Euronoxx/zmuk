@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
 
-const footer = () => {
+const Footer = () => {
     return (
         <>
         <Container fluid className="topfooter">
@@ -17,7 +17,7 @@ const footer = () => {
                         <h4>Zoiko Mobile</h4>
                         <ul>
                             <li><Link href="/plans">Zoiko Mobile Plans</Link></li>
-                            <li><Link href="#">Business SIM Deals</Link></li>
+                            <li><Link href="/business-sim-deals">Business SIM Deals</Link></li>
                             <li><Link href="/business-deals-data-only-sims">Data Only SIMs</Link></li>
                             <li><Link href="/30-day-plan">30-Day Plans</Link></li>
                             <li><Link href="#">Coverage Checker</Link></li>
@@ -113,4 +113,4 @@ const footer = () => {
     );
 };
 
-export default footer;
+export default Footer;

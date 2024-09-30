@@ -163,6 +163,11 @@ a.mainmenu {
   font-family: Impact, 'Arial Narrow Bold', sans-serif;
   padding-top: -10px;
 }
+.simplandeal .datasm {
+  color: #FECC00;
+  font-size: 36px;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
 .simplandeal .curprice {
   font-size: 28px;
   font-weight: bold;
@@ -393,6 +398,12 @@ a.mainmenu {
   font-weight: 800;
   line-height: 32px;
 }
+.bigredlt {
+  color: #DF1E5A;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
 .verybigred {
   color: #DF1E5A;
   font-size: 48px;
@@ -443,6 +454,9 @@ a.mainmenu {
   border: 1px solid #d2d2d2;
   border-radius: 8px;
   box-shadow: 2px 2px #cccccc;
+}
+ul.musicicon {
+  list-style-image: url('/img/music-note-beamed.svg');
 }
 
 /** Footer css */

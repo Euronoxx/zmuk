@@ -91,7 +91,7 @@ const Header = () => {
                                                     <li><Link href="/login">Join Zoiko Family</Link></li>
                                                     <li><Link href="/free-delivery-policy">Free Delivery</Link></li>
                                                     <li><Link href="/product-category/refurbished">Refurbished Smartphones</Link></li>
-                                                    <li>Return Policy</li>
+                                                    <li><Link href={"/return-policy"}>Return Policy</Link></li>
                                                 </ul>
                                             </p>
                                         </Col>
@@ -132,7 +132,7 @@ const Header = () => {
 
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item dropdown">
-                            <Link className="nav-link dropdown-toggle mainmenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Login</Link>
+                            <Link className="nav-link dropdown-toggle mainmenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Zoiko</Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link className="dropdown-item" href="/login">Login</Link></li>
                                 <li><Link className="dropdown-item" href="/register">Register</Link></li>
