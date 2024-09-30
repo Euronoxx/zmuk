@@ -83,9 +83,9 @@ export default function BusinessSimDeals () {
                         ))}
                     </Row>
                 </Container>
-                <HeadBarSmall text="Zoiko Business: Data Only SIM Plans" />
+                <HeadBar text="Zoiko Business: Data Only SIM Plans" />
                 <Container fluid>
-                    <div className="d-flex flex-row p-4 justify-content-center" style={{gap:'20px'}}>
+                    <div className="d-flex flex-md-row flex-column p-4 justify-content-center" style={{gap:'20px'}}>
                         {dataonly.twentyfour.map((item) => (
                             <Card className="p-4" key={item.id}>
                                 <CardTitle className="text-center">{item.plan}</CardTitle>
@@ -161,9 +161,9 @@ export default function BusinessSimDeals () {
                         ))}
                     </Row>
                 </Container>
-                <HeadBarSmall text="Zoiko Business: Data Only SIM Plans" />
+                <HeadBar text="Zoiko Business: Data Only SIM Plans" />
                 <Container fluid>
-                    <div className="d-flex flex-row p-4 justify-content-center" style={{gap:'20px'}}>
+                    <div className="d-flex flex-md-row flex-column p-4 justify-content-center" style={{gap:'20px'}}>
                         {dataonly.twelve.map((item) => (
                             <Card className="p-4" key={item.id}>
                                 <CardTitle className="text-center">{item.plan}</CardTitle>
@@ -240,10 +240,10 @@ export default function BusinessSimDeals () {
                         ))}
                     </Row>
                 </Container>
-                <HeadBarSmall text="Zoiko Business: Data Only SIM Plans" />
+                <HeadBar text="Zoiko Business: Data Only SIM Plans" />
                 <Container fluid>
-                    <div className="d-flex flex-row p-4 justify-content-center" style={{gap:'20px'}}>
-                        {dataonly.thirty.map((item, index) => (
+                    <div className="d-flex flex-md-row flex-column p-4 justify-content-center" style={{gap:'20px'}}>
+                        {dataonly.thirty.map((item) => (
                             <Card className="p-4" key={item.id}>
                                 <CardTitle className="text-center">{item.plan}</CardTitle>
                                 <Row>
