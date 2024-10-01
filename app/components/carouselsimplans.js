@@ -8,7 +8,7 @@ const carouselsimplan = () => {
         <>
         <Container className="py-4">
             <h2 className="text-center py-4 green24bold">Choose Your SIM Only Plan <span className="txtred">&amp;</span> Duration Below</h2>
-            <ul className="nav nav-tabs nav-justified" role="tablist">
+            <ul className="nav nav-tabs nav-justified" role="tablist" style={{border:'1px solid black',borderRadius:'8px'}}>
                 <li className="nav-item" role="presentation">
                     <Link className="nav-link active" id="justified-tab-0" data-bs-toggle="tab" href="#home" role="tab" aria-controls="justified-tabpanel-0" aria-selected="true"> 24 Month Plan </Link>
                 </li>

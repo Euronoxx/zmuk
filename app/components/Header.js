@@ -77,9 +77,9 @@ const Header = () => {
                                             <p><span className="txtgreen">Customer Support</span><br />
                                                 <ul className="menulist">
                                                     <li>Help &amp; Support</li>
-                                                    <li>Reasons to love Zoiko</li>
-                                                    <li>Check Network Coverage</li>
-                                                    <li>FAQs</li>
+                                                    <li><Link href={"/reasons-to-love-zoiko-mobile"}>Reasons to love Zoiko</Link></li>
+                                                    <li><Link href={"https://ee.co.uk/help/mobile-coverage-checker"} target="_blank">Check Network Coverage</Link></li>
+                                                    <li><Link href={"/faq"}>FAQs</Link></li>
                                                     <li>How to activate SIM Cards</li>
                                                 </ul>
                                             </p>

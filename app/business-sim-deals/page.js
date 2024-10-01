@@ -364,6 +364,13 @@ export default function BusinessSimDeals () {
                     </Row>
                 </CarouselItem>
             </Carousel>
+            <ul className="body22 pt-4 redbullet">
+                <li>In the realm of business telecommunications, various SIM card options cater to corporate needs, including Business SIM cards for seamless connectivity, Corporate SIM plans offering tailored solutions, and Data SIM cards for efficient data management. These options are complemented by the UK&apos;s No. 1 network, ensuring reliable coverage and performance.</li>
+                <li>Businesses can choose from a range of Business mobile plans, including Voice and data SIM cards that cover comprehensive communication needs, along with options like Unlimited calling SIM for business and High data limit SIM cards for flexibility and extensive usage capabilities.</li>
+                <li>Global connectivity is simplified with offerings such as Roaming SIM cards for business and International calling SIM cards, ensuring businesses stay connected across borders.</li>
+                <li>Flexible business SIM deals, Data-only SIM plans, and Multi-SIM plans for business provide customization possibilities, allowing businesses to select the best-suited SIM cards with flexible and affordable pricing.</li>
+                <li>Reliable network and competitive rates further enhance connectivity solutions, ensuring optimal performance tailored to the specific operations and communication requirements of businesses.</li>
+            </ul>
         </Container>
         <Footer />
         </>
