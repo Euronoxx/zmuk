@@ -590,6 +590,12 @@ ul .dropdownmenu li {
   background-size: cover;
   font-size: 20px;
 }
+ul.redbullet li::marker {
+  color: #DF1E5A;
+}
+.cardheight {
+  height: 300px;
+}
 .studentdiscount .container {
   padding-top: 60px;
   padding-bottom: 60px;
