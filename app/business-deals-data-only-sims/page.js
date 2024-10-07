@@ -186,7 +186,7 @@ export default function SimBusinessDeal () {
                         </Carousel.Item>
                     </Carousel>
                 </div>
-                <div id="menu1" className="tab-pane active" aria-current="page">
+                <div id="menu1" className="tab-pane active mt-4" aria-current="page">
                     <Carousel>
                         <Carousel.Item>
                             <Row>

@@ -5,10 +5,15 @@ import Footer from "../components/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import HeadBar from "../components/HeadBar";
+import Head from "next/head";
 
 const about = () => {
     return (
         <>
+        <Head>
+            <title>Zoiko Mobile | About Us</title>
+            <meta name="description" content="Zoiko Mobile UK | Powered by Euronoxx Group" />
+        </Head>
         <Header />
         <HeadBar text={<>The Zoiko Philosophy <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Innovate <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Connect <span className="msicon"><i className="bi bi-music-note-beamed"></i></span> Communicate</>} />
         <Container fluid className="p-0">
