@@ -23,7 +23,7 @@ const carouselsimplan = () => {
         <Container fluid className="px-4">
             <div className="tab-content simplandeal">
                 <div id="home" className="tab-pane active" aria-current="page">
-                    <Carousel>
+                    <Carousel controls={false}>
                         <Carousel.Item>
                             <Row>
                                 <Col>

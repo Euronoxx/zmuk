@@ -400,7 +400,7 @@ a.mainmenu {
 }
 .bigredlt {
   color: #DF1E5A;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   line-height: 24px;
 }
@@ -631,13 +631,11 @@ ul.redbullet li::marker {
   padding-bottom: 60px;
   font-size: 18px;
 }
-
 .footer ul li {
   list-style-type: none;
   margin-left: -30px;
   margin-bottom: 20px;
 }
-
 .footer p {
   margin-top: 30px;
 }

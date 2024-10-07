@@ -131,8 +131,14 @@ const Header = () => {
                     </ul>
 
                     <ul className="navbar-nav ms-auto">
+                        <li className="nav-item">
+                            <Link href={"#"} className="nav-link"><i class="bi bi-search"></i></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href={"#"} className="nav-link px-3"><i class="bi bi-cart"></i></Link>
+                        </li>
                         <li className="nav-item dropdown">
-                            <Link className="nav-link dropdown-toggle mainmenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Zoiko</Link>
+                        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">My Zoiko</button>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link className="dropdown-item" href="/login">Login</Link></li>
                                 <li><Link className="dropdown-item" href="/register">Register</Link></li>
