@@ -17,7 +17,7 @@ a.mainmenu {
 }
 .nav-link {
   color: #DF1E5A !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
 }
 .nav-item.widemenu {
   position: inherit;
@@ -339,6 +339,10 @@ a.mainmenu {
   border-radius: 8px;
   padding: 18px 18px;
   background-color: white;
+}
+.redbordercontainer {
+  border: 1px solid #DF1E5A;
+  border-radius: 8px;
 }
 
 .offerbox {
