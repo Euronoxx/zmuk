@@ -116,7 +116,7 @@ const Header = () => {
                                         <Col md={2} sm={12} xs={12}>
                                             <p><span className="txtgreen">What&apos;s Included</span><br />
                                                 <ul className="menulist">
-                                                    <li>5G Speed</li>
+                                                    <li><Link href={"/5G-speed"}>5G Speed</Link></li>
                                                     <li>Wi-Fi Calling</li>
                                                     <li>EU Roaming</li>
                                                     <li>International Calls</li>
