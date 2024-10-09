@@ -117,10 +117,10 @@ const Header = () => {
                                             <p><span className="txtgreen">What&apos;s Included</span><br />
                                                 <ul className="menulist">
                                                     <li><Link href={"/5G-speed"}>5G Speed</Link></li>
-                                                    <li>Wi-Fi Calling</li>
-                                                    <li>EU Roaming</li>
-                                                    <li>International Calls</li>
-                                                    <li>eSIM</li>
+                                                    <li><Link href={"/wi-fi-calling"}>Wi-Fi Calling</Link></li>
+                                                    <li><Link href={"/eu-roaming"}>EU Roaming</Link></li>
+                                                    <li><Link href={"/global-chatter-free-international-calls"}>International Calls</Link></li>
+                                                    <li><Link href={"/esim"}>eSIM</Link></li>
                                                 </ul>
                                             </p>
                                         </Col>

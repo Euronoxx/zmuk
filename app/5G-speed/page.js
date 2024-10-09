@@ -13,7 +13,7 @@ export default function FiveGSpeed () {
         <Container className="redbordercontainer my-5 p-0">
             <Row>
                 <Col md={6} sm={12} xs={12}>
-                    <Image src={"/img/superfast-5g-data.png"} width={200} height={140} style={{width:'100%', height:'auto'}} alt="5G Data" />
+                    <Image src={"/img/superfast-5g-data.png"} width={400} height={140} style={{width:'100%', height:'auto'}} alt="5G Data" />
                 </Col>
                 <Col md={6} sm={12} xs={12}>
                     <div className="p-5">

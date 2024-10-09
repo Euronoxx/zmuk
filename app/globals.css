@@ -344,6 +344,10 @@ a.mainmenu {
   border: 1px solid #DF1E5A;
   border-radius: 8px;
 }
+.yellowbordercontainer {
+  border: 1px solid #FECC00;
+  border-radius: 8px;
+}
 
 .offerbox {
   border: 1px solid #DF1E5A;
