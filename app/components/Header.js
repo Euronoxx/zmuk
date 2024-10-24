@@ -87,7 +87,7 @@ const Header = () => {
                                         <Col md={2} sm={12} xs={12}>
                                             <p><span className="txtgreen">Get Started</span><br />
                                                 <ul className="menulist">
-                                                    <li>Switch &amp; Save</li>
+                                                    <li><Link href={"/switch"}>Switch &amp; Save</Link></li>
                                                     <li><Link href="/login">Join Zoiko Family</Link></li>
                                                     <li><Link href="/free-delivery-policy">Free Delivery</Link></li>
                                                     <li><Link href="/product-category/refurbished">Refurbished Smartphones</Link></li>
