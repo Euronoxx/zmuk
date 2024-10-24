@@ -4,11 +4,21 @@ import { Carousel } from 'react-bootstrap';
 import HeadBar from './HeadBar';
 
 function Homebanner() {
+  const directionButtons = (direction) => {
+  return (
+      <span
+        aria-hidden="true"
+        className={direction === "Next" ? "button-next" : "button-prev"}
+      >
+        {direction}
+      </span>
+    );
+  };
   return (
     <>
     <HeadBar text={<>Enjoy Amazing SIM Only Deals From the Animal <span className="txtred">&amp;</span> Music Loving Network!</>} />
     <div>
-      <Carousel>
+      <Carousel nextIcon={directionButtons(<i class="bi bi-arrow-right-circle carousel-next-icon"></i>)} prevIcon={directionButtons(<i class="bi bi-arrow-left-circle carousel-prev-btn"></i>)}>
         <Carousel.Item>
           <img
             className="d-block w-100"
