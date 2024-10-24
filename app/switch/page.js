@@ -16,7 +16,7 @@ export default function Switch () {
             <h2 className="bigred">Making the Switch is as Simple as 1, 2, 3</h2>
             <ol className="body22">
                 <li><span className="txtred">Assess Your Current Mobile Plan:</span> Consider your monthly expenses and data allowances. Ready for an upgrade?</li>
-                <li><span className="txtred">Compare and Discover the Zoiko Advantage:</span> Check out our comparison section right here to see how our offerings stack up against your current plan. Spoiler alert: you'll be impressed! Click here to compare plans.</li>
+                <li><span className="txtred">Compare and Discover the Zoiko Advantage:</span> Check out our comparison section right here to see how our offerings stack up against your current plan. Spoiler alert: you&apos;ll be impressed! Click here to compare plans.</li>
                 <li><span className="txtred">Switch Effortlessly Online:</span> Use our straightforward online tool to make the switch. From handling your number transfer with a PAC code to finalising your plan choice, everything is streamlined for your convenience.</li>
             </ol>
             <div className="p-2 body22">
