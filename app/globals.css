@@ -348,6 +348,10 @@ a.mainmenu {
   border: 1px solid #FECC00;
   border-radius: 8px;
 }
+.blackbordercontainer {
+  border: 1px solid black;
+  border-radius: 8px;
+}
 
 .offerbox {
   border: 1px solid #DF1E5A;
