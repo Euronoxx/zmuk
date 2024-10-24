@@ -352,6 +352,9 @@ a.mainmenu {
   border: 1px solid black;
   border-radius: 8px;
 }
+.blackbordercontainer .body22 {
+  line-height: 30px;
+}
 
 .offerbox {
   border: 1px solid #DF1E5A;
