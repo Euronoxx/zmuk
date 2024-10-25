@@ -3,6 +3,7 @@
         {
             "id": 1,
             "name": "Galaxy S22+ 5G",
+            "slug": "galaxy-s22-plus-5g",
             "price": "£397.59",
             "condition": [
                 "A2-Excellent"
@@ -20,6 +21,7 @@
         {
             "id": 2,
             "name": "iPhone 13 Pro Max",
+            "slug": "iphone-13-pro-max",
             "price": "£700.25",
             "condition": [
                 "A2-Excellent"
@@ -36,6 +38,7 @@
         {
             "id": 3,
             "name": "iPhone 12 Pro Max",
+            "slug": "iphone-12-pro-max",
             "price": "£566.25",
             "condition": [
                 "A2-Excellent"
@@ -52,6 +55,7 @@
         {
             "id": 4,
             "name": "iPhone 12 Mini",
+            "slug": "iphone-12-mini",
             "price": "£277.25",
             "condition": [
                 "A1-Flawless",
@@ -73,6 +77,7 @@
         {
             "id": 5,
             "name": "iPhone 11 Pro",
+            "slug": "iphone-11-pro",
             "price": "£328.25",
             "condition": [
                 "A1-Flawless",
@@ -96,6 +101,7 @@
         {
             "id": 6,
             "name": "Galaxy S23+",
+            "slug": "galaxy-s23-plus",
             "price": "£576.25",
             "condition": [
                 "A1-Flawless",
@@ -113,6 +119,7 @@
         {
             "id": 7,
             "name": "Galaxy S23 FE",
+            "slug": "galaxy-s23-fe",
             "price": "£402.25",
             "condition": [
                 "A1-Flawless",
@@ -130,6 +137,7 @@
         {
             "id": 8,
             "name": "iPhone SE 3",
+            "slug": "iphone-se-3",
             "price": "£260.25",
             "condition": [
                 "A2-Excellent"
@@ -146,6 +154,7 @@
         {
             "id": 9,
             "name": "Pixel 8 Pro",
+            "slug": "pixel-8-pro",
             "price": "£587.99",
             "condition": [
                 "A2-Excellent"
