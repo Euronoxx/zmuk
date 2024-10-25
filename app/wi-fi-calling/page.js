@@ -4,8 +4,18 @@ import HeadBar from "../components/HeadBar";
 import Footer from "../components/Footer";
 import { Container } from "react-bootstrap";
 import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 
 export default function Wificalling () {
+
+    const [isToggled, setIsToggled] = useState(false);
+    const [isOpen, setOpen] = useState(false);
+    const toggleView = () => {
+        setOpen(!isOpen);
+        setIsToggled(!isToggled);
+    }
+
     return (
         <>
         <Header />
@@ -17,18 +27,24 @@ export default function Wificalling () {
             <div className="text-center">
                 <Image src={"/img/wificalling.png"} width={500} height={200} alt="Wifi Calling" style={{width:'100%',height:'auto'}} />
             </div>
-            
             <div className="p-4 body22 text-center">
                 Imagine making crystal-clear calls and sending messages while connected to any Wi-Fi network, without any extra app or service needed. It&apos;s all about keeping you connected effortlessly. This feature is a game-changer for those living in areas with tricky mobile reception or for those moments when you&apos;re somewhere the signal fears to tread.
             </div>
-            <div className="p-4 body22 text-center">
-                With Wi-Fi Calling, your device automatically switches to available Wi-Fi connections to maintain your communications without interruption. This means continuous conversations, uninterrupted streaming of voicemails, and reliable text messaging anytime you&apos;re connected to Wi-Fi.
-            </div>
-            <div className="p-4 body22 text-center">
-                Perfect for travellers too—avoid costly roaming charges and enjoy the comforts of home connectivity, no matter where you are in the world. Just hop on a Wi-Fi network and use your mobile phone as if you were back in the UK.
-            </div>
-            <div className="p-4 body22 text-center">
-                Step into the future of communication with Wi-Fi Calling: no extra costs, no new numbers, just your mobile taking connectivity to the next level. Wherever there&apos;s Wi-Fi, you&apos;re ready to talk. Stay connected, effortlessly and always.
+            {isOpen && (
+                <>
+                <div className="p-4 body22 text-center">
+                    With Wi-Fi Calling, your device automatically switches to available Wi-Fi connections to maintain your communications without interruption. This means continuous conversations, uninterrupted streaming of voicemails, and reliable text messaging anytime you&apos;re connected to Wi-Fi.
+                </div>
+                <div className="p-4 body22 text-center">
+                    Perfect for travellers too—avoid costly roaming charges and enjoy the comforts of home connectivity, no matter where you are in the world. Just hop on a Wi-Fi network and use your mobile phone as if you were back in the UK.
+                </div>
+                <div className="p-4 body22 text-center">
+                    Step into the future of communication with Wi-Fi Calling: no extra costs, no new numbers, just your mobile taking connectivity to the next level. Wherever there&apos;s Wi-Fi, you&apos;re ready to talk. Stay connected, effortlessly and always.
+                </div>
+                </>
+            )}
+            <div className="text-center py-4">
+                <Link href={"#"} className="txtred" onClick={toggleView}>{isToggled ? 'Read Less' : 'Read More'}</Link>
             </div>
         </Container>
         <Footer />
