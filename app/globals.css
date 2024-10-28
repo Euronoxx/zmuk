@@ -407,6 +407,27 @@ a.mainmenu {
 .menulist a:hover {
   color: #DF1E5A;
 }
+.checkoutlistcolor {
+  list-style-type: none;
+  display: inline-block;
+  padding: 6px 36px;
+  border: 1px solid #0A5A35;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+.checkoutliststorage {
+  list-style-type: none;
+  display: inline-block;
+  padding: 6px 36px;
+  border: 1px solid #0A5A35;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+.midbigred {
+  color: #DF1E5A;
+  font-size: 32px;
+  font-weight: 400;
+}
 .bigred {
   color: #DF1E5A;
   font-size: 24px;
