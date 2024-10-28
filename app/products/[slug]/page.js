@@ -17,8 +17,8 @@ export default function ProductDetail ({ params }) {
         <HeadBar text={<>Discover Premium Quality Refurbished Smartphones <span style={{color:'#DF1E5A'}}>@</span> Zoiko Mobile</>} />
         {data.phones.filter(item => item.slug === paramUrl).map((item) => {
             return(
-                <Container>
-                    <Row key={item.id}>
+                <Container key={item.id}>
+                    <Row>
                         <Col md={6} sm={12} xs={12} className="p-4 text-center">
                             <Image src={item.image} alt={item.name} width={300} height={400} style={{width:'70%',height:'auto'}} />
                         </Col>
