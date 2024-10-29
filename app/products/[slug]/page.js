@@ -2,7 +2,7 @@
 import Header from "../../components/Header";
 import HeadBar from "../../components/HeadBar";
 import Footer from "../../components/Footer";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row, Card } from "react-bootstrap";
 import { useRouter } from "next/navigation";
 import data from "../../products/mobiledata.json";
 import Image from "next/image";
@@ -25,6 +25,7 @@ export default function ProductDetail ({ params }) {
                         <Col md={6} sm={12} xs={12} className="p-4">
                             <h2 className="green24bold">{item.name}</h2>
                             <div className="midbigred">{item.price}</div>
+                            <hr />
                             <h4 className="pt-3">Color</h4>
                             <div>{item.color.map((name, index) => (
                                 <li className="checkoutlistcolor" key={index}>{name}</li>
@@ -43,6 +44,40 @@ export default function ProductDetail ({ params }) {
                 </Container>
             );
         })}
+
+        <Container className="p-5">
+            <h3 className="green24bold">You may also like</h3>
+            <Row>
+                {data.phones.map((item) => (
+                    <Col key={item.id} md={4}>
+                        <Card className="p-4 mb-4" style={{height:'400px'}}>
+                            <h3 dangerouslySetInnerHTML={{ __html: item.name }} className="green24bold" />
+                            <Row>
+                                <Col md={6} sm={6} xs={6}>
+                                    Starting From:<p dangerouslySetInnerHTML={{ __html: item.price }} className="txtred" style={{fontSize:'14px'}} />
+                                </Col>
+                                <Col md={6} sm={6} xs={6}>
+                                    Device condition:<p dangerouslySetInnerHTML={{ __html: item.condition }} style={{fontSize:'14px'}} />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col md={6} sm={6} xs={6}>
+                                    <Image src={item.image} alt={item.name} width={130} height={180} />
+                                </Col>
+                                <Col md={6} sm={6} xs={6}>
+                                    Available colors:<p dangerouslySetInnerHTML={{ __html: item.color }} style={{fontSize:'14px'}} />
+                                    Internal Storage:<p dangerouslySetInnerHTML={{ __html: item.storage }} style={{fontSize:'14px'}} />
+                                    <p dangerouslySetInnerHTML={{ __html: item.quality }} style={{fontSize:'14px'}} />
+                                </Col>
+                            </Row>
+                            <div className="mt-4">
+                                <Button variant="outline-danger" href={`/products/${item.slug}`}>View Details</Button>&nbsp;<Button variant="outline-danger" href={`/products/${item.slug}`}>Buy Now</Button>
+                            </div>
+                        </Card>
+                    </Col>
+                ))}
+            </Row>
+        </Container>
         <Footer />
         </>
         

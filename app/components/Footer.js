@@ -28,11 +28,11 @@ const Footer = () => {
                         <ul>
                             <li>Roaming and Overage</li>
                             <li>Zero Cost SMS</li>
-                            <li>Discounted Rates</li>
-                            <li>Refer Link Friend</li>
+                            <li><Link href="/zoiko-mobile-discounted-rates">Discounted Rates</Link></li>
+                            <li><Link href="/refer-a-friend-page">Refer A Friend</Link></li>
                             <li className="dropdown"><Link href="#">Zioko Programs <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
-                                    <li><Link href="#">Student Discount Prgm</Link></li>
+                                    <li><Link href="/studentdiscount">Student Discount Prgm</Link></li>
                                     <li><Link href="#">Student Discount Form</Link></li>
                                     <li><Link href="#">Join Our Network</Link></li>
                                     <li><Link href="#">Student Ambassador Prgm</Link></li>
@@ -45,11 +45,11 @@ const Footer = () => {
                         <ul>
                             <li><Link href="#">Blogs</Link></li>
                             <li><Link href="#">News</Link></li>
-                            <li><Link href="#">FAQs</Link></li>
+                            <li><Link href="/faq">FAQs</Link></li>
                             <li><Link href="/contact-us">Contact Us</Link></li>
                             <li className="dropdown"><Link href="">Useful Resources <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
-                                    <li><Link href="#">UK Retirement Resources</Link></li>
+                                    <li><Link href="/uk-retirement-resources">UK Retirement Resources</Link></li>
                                     <li><Link href="#">UK Business Resources</Link></li>
                                     <li><Link href="#">Customer Complaint</Link></li>
                                     <li><Link href="#">UK Government Websites</Link></li>
