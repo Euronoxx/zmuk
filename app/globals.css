@@ -9,6 +9,9 @@ html, body{
   font-size: 20px;
   line-height: 24px;
 }
+.body22 li {
+  margin: 10px 0;
+}
 a {
   text-decoration: none;
 }
@@ -102,6 +105,13 @@ a.mainmenu {
 .bannerheader p {
   text-align: center;
   font-size: 18px;
+}
+.referfriendbanner {
+  background-image: url('/img/refer-a-friend.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
 }
 
 .plansec {
@@ -336,6 +346,13 @@ a.mainmenu {
 .redborderbox {
   width: 100%;
   border: 1px solid #DF1E5A;
+  border-radius: 8px;
+  padding: 18px 18px;
+  background-color: white;
+}
+.greenborderbox {
+  width: 100%;
+  border: 1px solid #0A5A35;
   border-radius: 8px;
   padding: 18px 18px;
   background-color: white;
