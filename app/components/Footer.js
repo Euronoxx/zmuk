@@ -50,10 +50,10 @@ const Footer = () => {
                             <li className="dropdown"><Link href="">Useful Resources <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
                                     <li><Link href="/uk-retirement-resources">UK Retirement Resources</Link></li>
-                                    <li><Link href="#">UK Business Resources</Link></li>
-                                    <li><Link href="#">Customer Complaint</Link></li>
+                                    <li><Link href="/uk-buisness-resources">UK Business Resources</Link></li>
+                                    <li><Link href="/customer-complaint">Customer Complaint</Link></li>
                                     <li><Link href="#">UK Government Websites</Link></li>
-                                    <li><Link href="#">UK Family Resources</Link></li>
+                                    <li><Link href="/uk-family-resources">UK Family Resources</Link></li>
                                     <li><Link href="#">Online Safty</Link></li>
                                 </ul>
                             </li>
