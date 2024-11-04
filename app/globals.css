@@ -578,6 +578,12 @@ ul .dropdownmenu li {
 .readmore a {
   color: #DF1E5A;
 }
+/* Grey border box */
+.greybox {
+  background-color: #E6E0E0;
+  border-radius: 8px;
+  padding: 20px 20px;
+}
 .aboutgreybox {
   background-color: #E6E0E0;
   border: 1px solid black;
