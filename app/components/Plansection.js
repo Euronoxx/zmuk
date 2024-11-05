@@ -5,7 +5,7 @@ import Link from "next/link";
 const plansection = () => {
     return (
         <Container className="mt-4 py-4 bannerheader">
-            <h2 className="firstheader text-center">Join Zoiko Mobile Today And Start Something New!</h2>
+            <h2 className="bigred text-center">Join Zoiko Mobile Today And Start Something New!</h2>
             <p>Get super-fast Broadband | Reliable Network Coverage at Low Prices | Free International Calls | Free High Speed 5G Data</p>
             <Row className="text-center mt-4 plansec">
                 <Col>
