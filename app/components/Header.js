@@ -1,12 +1,18 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../globals.css';
 import { useEffect, useState } from "react";
+import Modal from 'react-bootstrap/Modal';
 
 const Header = () => {
     const [isMounted, setIsMounted] = useState(false);
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     useEffect(() => {
         setIsMounted(true);
@@ -16,6 +22,7 @@ const Header = () => {
         return null;
     }
     return (
+        <>
         <nav className="navbar companyred sticky-top navbar-expand-lg navbar-light bg-light">
             <Container>
                 <Link className="navbar-brand" href="/">
@@ -132,13 +139,13 @@ const Header = () => {
 
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <Link href={"#"} className="nav-link"><i class="bi bi-search"></i></Link>
+                            <Link href={"#"} className="nav-link" onClick={handleShow}><i className="bi bi-search"></i></Link>
                         </li>
                         <li className="nav-item">
-                            <Link href={"#"} className="nav-link px-3"><i class="bi bi-cart"></i></Link>
+                            <Link href={"#"} className="nav-link px-3"><i className="bi bi-cart"></i></Link>
                         </li>
                         <li className="nav-item dropdown">
-                        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">My Zoiko</button>
+                        <button className="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">My Zoiko</button>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link className="dropdown-item" href="/login">Login</Link></li>
                                 <li><Link className="dropdown-item" href="/register">Register</Link></li>
@@ -148,6 +155,19 @@ const Header = () => {
                 </div>
             </Container>
         </nav>
+
+        <Modal show={show} onHide={handleClose} size="lg" centered>
+            <Modal.Body>
+                <div className="p-5">
+                    <h2 className="mb-3">Search Zoiko Products</h2>
+                    <label htmlFor="search">Enter keyword to search</label>
+                    <input type="text" name="search" className="form-control" />
+                    <Button variant="primary" onClick={handleClose} className="mt-4">Search</Button>&nbsp;
+                    <Button variant="primary" onClick={handleClose} className="mt-4">Cancel</Button>
+                </div>
+            </Modal.Body>
+        </Modal>
+        </>
     );
 };
 

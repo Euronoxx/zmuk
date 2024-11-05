@@ -4,6 +4,16 @@ import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
 
 const carouselsimplan = () => {
+    const directionButtons = (direction) => {
+        return (
+            <span
+              aria-hidden="true"
+              className={direction === "Next" ? "button-next" : "button-prev"}
+            >
+              {direction}
+            </span>
+          );
+        };
     return (
         <>
         <Container className="py-4">
@@ -23,7 +33,7 @@ const carouselsimplan = () => {
         <Container fluid className="px-4">
             <div className="tab-content simplandeal">
                 <div id="home" className="tab-pane active" aria-current="page">
-                    <Carousel controls={false}>
+                    <Carousel nextIcon={directionButtons(<i class="bi bi-arrow-right-circle carousel-next-icon"></i>)} prevIcon={directionButtons(<i class="bi bi-arrow-left-circle carousel-prev-btn"></i>)}>
                         <Carousel.Item>
                             <Row>
                                 <Col>

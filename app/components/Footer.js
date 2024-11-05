@@ -52,7 +52,7 @@ const Footer = () => {
                                     <li><Link href="/uk-retirement-resources">UK Retirement Resources</Link></li>
                                     <li><Link href="/uk-buisness-resources">UK Business Resources</Link></li>
                                     <li><Link href="/customer-complaint">Customer Complaint</Link></li>
-                                    <li><Link href="#">UK Government Websites</Link></li>
+                                    <li><Link href="/uk-government-websites">UK Government Websites</Link></li>
                                     <li><Link href="/uk-family-resources">UK Family Resources</Link></li>
                                     <li><Link href="#">Online Safty</Link></li>
                                 </ul>
