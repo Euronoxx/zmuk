@@ -19,7 +19,7 @@ export default function esgPolicy () {
             <p className="body22">Innovation for Sustainability: Zoiko Mobile will drive innovation in the development of environmentally friendly and energy-efficient products and services, contributing to a more sustainable environment.</p>
             <p className="bigred">3. Social Responsibility</p>
             <p className="body22">Diversity and Inclusion: We are dedicated to fostering a diverse and inclusive work environment where every employee is valued and respected, promoting equality across our workforce.</p>
-            <p className="body22">Fair Labour Practices: Zoiko Mobile is committed to maintaining fair labour practices, which include providing fair wages, ensuring safe and healthy working conditions, and respecting workers' rights.</p>
+            <p className="body22">Fair Labour Practices: Zoiko Mobile is committed to maintaining fair labour practices, which include providing fair wages, ensuring safe and healthy working conditions, and respecting workers&apos; rights.</p>
             <p className="body22">Community Engagement: We actively engage with the communities where we operate, supporting social development, philanthropy, and volunteerism to make a positive impact on society.</p>
             <p className="body22">Customer Focus: Our top priority is customer satisfaction. We achieve this by delivering high-quality products and services, maintaining transparency, and conducting our business with the utmost integrity.</p>
             <p className="bigred">4. Governance and Ethics</p>
@@ -35,7 +35,7 @@ export default function esgPolicy () {
             <p className="bigred">7. Continuous Enhancement</p>
             <p className="body22">We continuously review and enhance our ESG practices, setting increasingly higher standards and achieving better performance in environmental, social, and governance matters.</p>
             <p className="bigred">8. Conclusion</p>
-            <p className="body22">This ESG Policy underscores Zoiko Mobile's unwavering commitment to sustainable and responsible business practices, focusing on environmental preservation, social responsibility, and sound governance. Our aim is to be a leader in ESG initiatives, providing value to our stakeholders and contributing to a more sustainable and inclusive world.</p>
+            <p className="body22">This ESG Policy underscores Zoiko Mobile&apos;s unwavering commitment to sustainable and responsible business practices, focusing on environmental preservation, social responsibility, and sound governance. Our aim is to be a leader in ESG initiatives, providing value to our stakeholders and contributing to a more sustainable and inclusive world.</p>
         </Container>
         <Footer />
         </>

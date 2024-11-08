@@ -58,7 +58,7 @@ export default function TermsAndConditions () {
             <ul style={{listStyleType:'none'}}>
                 <li>
                     <p className="bigred">5.1 Disclaimer</p>
-                    <p className="body22">Zoiko Mobile is not responsible for any indirect, incidental, special, or consequential damages that result from your use of our website. We provide our services "as is" without any warranties</p>
+                    <p className="body22">Zoiko Mobile is not responsible for any indirect, incidental, special, or consequential damages that result from your use of our website. We provide our services &quot;as is&quot; without any warranties</p>
                 </li>
                 <li>
                     <p className="bigred">5.2 Third-Party Links</p>
@@ -82,7 +82,7 @@ export default function TermsAndConditions () {
                 <li>
                     <p className="body22">If you have any questions or concerns about these Terms and Conditions, please contact us at the following address:</p>
                     <p className="body22">Zoiko Mobile<br />Berkeley Suite, 35 Berkeley Square,<br />Mayfair, London W1J 5BF<br />Email: <Link href="mailto:info@zoikomobile.co.uk">info@zoikomobile.co.uk</Link><br />Telephone: +44 2071 646 399</p>
-                    <p className="body22">By using Zoiko Mobile's website, you agree to these Terms and Conditions. Thank you for choosing Zoiko Mobile as your online destination. We value your compliance with these guidelines to ensure a secure and enjoyable online experience.</p>
+                    <p className="body22">By using Zoiko Mobile&apos;s website, you agree to these Terms and Conditions. Thank you for choosing Zoiko Mobile as your online destination. We value your compliance with these guidelines to ensure a secure and enjoyable online experience.</p>
                 </li>
             </ul>
             <div className="text-center mt-5">
