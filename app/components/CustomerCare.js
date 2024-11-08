@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import React, { Component } from "react";
 import { Container, Row } from "react-bootstrap";

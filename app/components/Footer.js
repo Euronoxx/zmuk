@@ -33,9 +33,9 @@ const Footer = () => {
                             <li className="dropdown"><Link href="#">Zioko Programs <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
                                     <li><Link href="/studentdiscount">Student Discount Prgm</Link></li>
-                                    <li><Link href="#">Student Discount Form</Link></li>
-                                    <li><Link href="#">Join Our Network</Link></li>
-                                    <li><Link href="#">Student Ambassador Prgm</Link></li>
+                                    <li><Link href="/student-discount-application">Student Discount Form</Link></li>
+                                    <li><Link href="/join-our-network">Join Our Network</Link></li>
+                                    <li><Link href="/smart-scholar-ambassadors-programme-application-form">Student Ambassador Prgm</Link></li>
                                 </ul>
                             </li>
                         </ul>
@@ -62,10 +62,10 @@ const Footer = () => {
                     <div className="col-md-2 col-sm-12 col-xs-12">
                         <h4>Zoiko Legal</h4>
                         <ul>
-                            <li><Link href="#">Term and Conditions</Link></li>
+                            <li><Link href="/terms-and-conditions">Term and Conditions</Link></li>
                             <li><Link href="#">Vulnerability Policy</Link></li>
                             <li><Link href="#">Modern Slavery Policy</Link></li>
-                            <li><Link href="#">ESG Policy</Link></li>
+                            <li><Link href="/esg-policy">ESG Policy</Link></li>
                             <li className="dropdown"><Link href="#">Zoiko Policies <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
                                     <li><Link href="/privacy-policy">Privacy Policy</Link></li>
