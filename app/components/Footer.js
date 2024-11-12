@@ -26,7 +26,7 @@ const Footer = () => {
                     <div className="col-md-2 col-sm-12 col-xs-12">
                         <h4>Zoiko Rates</h4>
                         <ul>
-                            <li>Roaming and Overage</li>
+                            <li><Link href={"/roaming-and-overage"}>Roaming and Overage</Link></li>
                             <li>Zero Cost SMS</li>
                             <li><Link href="/zoiko-mobile-discounted-rates">Discounted Rates</Link></li>
                             <li><Link href="/refer-a-friend-page">Refer A Friend</Link></li>
@@ -43,18 +43,22 @@ const Footer = () => {
                     <div className="col-md-2 col-sm-12 col-xs-12">
                         <h4>About Zoiko</h4>
                         <ul>
-                            <li><Link href="#">Blogs</Link></li>
+                            <li><Link href="/blog">Blogs</Link></li>
                             <li><Link href="#">News</Link></li>
                             <li><Link href="/faq">FAQs</Link></li>
                             <li><Link href="/contact-us">Contact Us</Link></li>
-                            <li className="dropdown"><Link href="">Useful Resources <i className="bi bi-chevron-down"></i></Link>
+                            <li className="dropdown"><Link href="#">Useful Resources <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
                                     <li><Link href="/uk-retirement-resources">UK Retirement Resources</Link></li>
                                     <li><Link href="/uk-buisness-resources">UK Business Resources</Link></li>
                                     <li><Link href="/customer-complaint">Customer Complaint</Link></li>
                                     <li><Link href="/uk-government-websites">UK Government Websites</Link></li>
                                     <li><Link href="/uk-family-resources">UK Family Resources</Link></li>
-                                    <li><Link href="#">Online Safty</Link></li>
+                                    <li className="dropdown2"><Link href="#">Online Safty <i className="bi bi-chevron-down"></i></Link>
+                                        <ul className="dropdownmenu2">
+                                            <li><Link href="/secondary-student">Secondary Students</Link></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -63,8 +67,8 @@ const Footer = () => {
                         <h4>Zoiko Legal</h4>
                         <ul>
                             <li><Link href="/terms-and-conditions">Term and Conditions</Link></li>
-                            <li><Link href="#">Vulnerability Policy</Link></li>
-                            <li><Link href="#">Modern Slavery Policy</Link></li>
+                            <li><Link href="/vulnerability-policy">Vulnerability Policy</Link></li>
+                            <li><Link href="/modern-slavery-policy">Modern Slavery Policy</Link></li>
                             <li><Link href="/esg-policy">ESG Policy</Link></li>
                             <li className="dropdown"><Link href="#">Zoiko Policies <i className="bi bi-chevron-down"></i></Link>
                                 <ul className="dropdownmenu">
@@ -72,8 +76,8 @@ const Footer = () => {
                                     <li><Link href="/cookie-policy">Cookie Policy</Link></li>
                                     <li><Link href="/late-fee-policy">Late Fee Policy</Link></li>
                                     <li><Link href="/refund-policy">Refund Policy</Link></li>
-                                    <li><Link href="#">Terms of Sale Policy</Link></li>
-                                    <li><Link href="#">Terms of Use for Mobile Apps</Link></li>
+                                    <li><Link href="/terms-of-sale-policy">Terms of Sale Policy</Link></li>
+                                    <li><Link href="/term-of-use-for-mobile-apps">Terms of Use for Mobile Apps</Link></li>
                                 </ul>
                             </li>
                         </ul>
