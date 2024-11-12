@@ -533,16 +533,24 @@ ul.musicicon {
   text-decoration: none;
   color: black;
 }
-.dropdown {
+.dropdown, .dropdown2 {
   display: inline-block;
   position: relative;
 }
-.dropdownmenu {
+.dropdownmenu, .dropdownmenu2 {
   display: none;
   box-shadow: 0px 8px 16px 0px #0A5A35;
   font-size: 14px;
 }
 .topfooter .dropdown:hover .dropdownmenu {
+  display: block;
+  position: absolute;
+  z-index: 99;
+  background-color: azure;
+  padding: 12px;
+  min-width: 240px;
+}
+.topfooter .dropdown2:hover .dropdownmenu2 {
   display: block;
   position: absolute;
   z-index: 99;
