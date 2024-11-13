@@ -113,7 +113,7 @@ const Header = () => {
                                         <Col md={3} sm={12} xs={12}>
                                             <p><span className="txtgreen">Tariffs &amp; Prices</span><br />
                                                 <ul className="menulist">
-                                                    <li>Roaming Charges</li>
+                                                    <li><Link href={"/roaming-and-overage"}>Roaming Charges</Link></li>
                                                     <li>Bundled Offers</li>
                                                     <li>Free International Calls</li>
                                                     <li>Out-of-Bundle Rates</li>

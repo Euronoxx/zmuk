@@ -68,7 +68,7 @@ export default function Page ({params}) {
             <h1 dangerouslySetInnerHTML={{ __html: title }}></h1>
             <p>{formatPublishedDate(date)}</p>
             <p dangerouslySetInnerHTML={{ __html: content }} className="body22" />
-            <Button variant='outline-success' size='lg' href='/blog' className='mt-5'>Back To Blogs</Button>
+            <Button variant='outline-success' size='lg' href='/blog' className='mt-5'>Back To News</Button>
         </Container>
         <Footer />
         </>
