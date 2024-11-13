@@ -44,7 +44,7 @@ const Footer = () => {
                         <h4>About Zoiko</h4>
                         <ul>
                             <li><Link href="/blog">Blogs</Link></li>
-                            <li><Link href="#">News</Link></li>
+                            <li><Link href="/news">News</Link></li>
                             <li><Link href="/faq">FAQs</Link></li>
                             <li><Link href="/contact-us">Contact Us</Link></li>
                             <li className="dropdown"><Link href="#">Useful Resources <i className="bi bi-chevron-down"></i></Link>
