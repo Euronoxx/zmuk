@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import Image from 'react-bootstrap/Image';
 import HeadBar from "../components/HeadBar";
 
-export function Blogs () {
+export function News () {
 
     const [posts, setPosts] = useState(null)
     useEffect(() => {
@@ -29,7 +29,7 @@ export function Blogs () {
     return (
         <>
         <Header />
-        <HeadBar text="Zoiko&apos;s Latest Tech Tea: On the Digital Pulse!" />
+        <HeadBar text="Zoiko&apos;s Buzz News: Where Mobile Trends &amp; Tech Talks Converge" />
         <Container className="p-4">
             <Row>
                 {posts.map((post) => (
@@ -39,7 +39,7 @@ export function Blogs () {
                         <p className="txtred">{formatPublishedDate(post.date)}</p>
                         <h2 className="green18" dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
                         <p dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} />
-                        <Button href={`/blog/${post.slug}`} variant="outline-danger" size="sm" style={{width:'100px'}}>Read More</Button>
+                        <Button href={`/news/${post.slug}`} variant="outline-danger" size="sm" style={{width:'100px'}}>Read More</Button>
                     </Card>
                 </Col>
                 ))}
@@ -49,4 +49,4 @@ export function Blogs () {
         </>
     );
 };
-export default Blogs;
+export default News;
