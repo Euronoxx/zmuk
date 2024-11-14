@@ -84,7 +84,7 @@ const Header = () => {
                                         <Col md={3} sm={12} xs={12}>
                                             <p><span className="txtgreen">Customer Support</span><br />
                                                 <ul className="menulist">
-                                                    <li>Help &amp; Support</li>
+                                                    <li><Link href={"/support"}>Help &amp; Support</Link></li>
                                                     <li><Link href={"/reasons-to-love-zoiko-mobile"}>Reasons to love Zoiko</Link></li>
                                                     <li><Link href={"https://ee.co.uk/help/mobile-coverage-checker"} target="_blank">Check Network Coverage</Link></li>
                                                     <li><Link href={"/faq"}>FAQs</Link></li>
@@ -114,7 +114,7 @@ const Header = () => {
                                             <p><span className="txtgreen">Tariffs &amp; Prices</span><br />
                                                 <ul className="menulist">
                                                     <li><Link href={"/roaming-and-overage"}>Roaming Charges</Link></li>
-                                                    <li>Bundled Offers</li>
+                                                    <li><Link href={"/bundled-sim-plan-offer"}>Bundled Offers</Link></li>
                                                     <li>Free International Calls</li>
                                                     <li>Out-of-Bundle Rates</li>
                                                     <li><Link href={"/civilservants"}>Public Sector Lifetime Deals</Link></li>
