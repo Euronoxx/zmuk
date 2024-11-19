@@ -4,17 +4,15 @@ import { Carousel } from 'react-bootstrap';
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
 
-const carouselsimplan = () => {
+export default function CarouselSimPlan () {
+
     const directionButtons = (direction) => {
         return (
-            <span
-              aria-hidden="true"
-              className={direction === "Next" ? "button-next" : "button-prev"}
-            >
+            <span aria-hidden="true" className={direction === "Next" ? "button-next" : "button-prev"}>
               {direction}
             </span>
-          );
-        };
+        );
+    };
     return (
         <>
         <Container className="py-4">
@@ -580,5 +578,4 @@ const carouselsimplan = () => {
         </Container>
         </>
     );
-};
-export default carouselsimplan;
+}
