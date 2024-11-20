@@ -25,7 +25,7 @@ export default function SimBusinessDeal () {
         <Container fluid className="px-4 pb-5">
             <div className="tab-content simplandeal">
                 <div id="home" className="tab-pane active" aria-current="page">
-                    <Carousel>
+                    <Carousel controls={false}>
                         <Carousel.Item>
                             <Row>
                                 <Col>
@@ -187,7 +187,7 @@ export default function SimBusinessDeal () {
                     </Carousel>
                 </div>
                 <div id="menu1" className="tab-pane active mt-4" aria-current="page">
-                    <Carousel>
+                    <Carousel controls={false}>
                         <Carousel.Item>
                             <Row>
                                 <Col>
