@@ -52,7 +52,7 @@ export default function AnimalMusic () {
                     <Col md={4}>
                         <h2 className="verybigred">Animals In Harmony</h2>
                         <p className="body22">Discover Videos Featuring Animals That Sing, Dance, And Groove To The Beat. From Parrats That Sing To Dogs That Dance, These Animals Are True Performers!</p>
-                        <Button variant="outline-danger" size="lg" href="/plan" className="mb-4">Explore Our Plans <i class="bi bi-arrow-right"></i></Button>
+                        <Button variant="outline-danger" size="lg" href="/plan" className="mb-4">Explore Our Plans <i className="bi bi-arrow-right"></i></Button>
                     </Col>
                     <Col md={8}>
                         <Carousel controls={false}>
