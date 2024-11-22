@@ -27,7 +27,7 @@ const Footer = () => {
                         <h4>Zoiko Rates</h4>
                         <ul>
                             <li><Link href={"/roaming-and-overage"}>Roaming and Overage</Link></li>
-                            <li>Zero Cost SMS</li>
+                            <li><Link href={"/zero-rated"}>Zero Cost SMS</Link></li>
                             <li><Link href="/zoiko-mobile-discounted-rates">Discounted Rates</Link></li>
                             <li><Link href="/refer-a-friend-page">Refer A Friend</Link></li>
                             <li className="dropdown"><Link href="#">Zioko Programs <i className="bi bi-chevron-down"></i></Link>
