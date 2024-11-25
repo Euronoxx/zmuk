@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Footer = () => {
+    const curyear = new Date().getFullYear();
     return (
         <>
         <Container fluid className="topfooter">
@@ -20,7 +21,7 @@ const Footer = () => {
                             <li><Link href="/business-sim-deals">Business SIM Deals</Link></li>
                             <li><Link href="/business-deals-data-only-sims">Data Only SIMs</Link></li>
                             <li><Link href="/30-day-plan">30-Day Plans</Link></li>
-                            <li><Link href="#">Coverage Checker</Link></li>
+                            <li><Link href="https://ee.co.uk/help/mobile-coverage-checker" target="_blank">Coverage Checker</Link></li>
                         </ul>
                     </div>
                     <div className="col-md-2 col-sm-12 col-xs-12">
@@ -110,7 +111,7 @@ const Footer = () => {
                         </ul>
                     </Col>
                 </Row>
-                <p className="text-center">&copy; 2024 Zoiko Mobile is Link trading name of Zoiko Telecom Ltd. Registered in England and Wales (No. 15021457). Information Commissioner&apos;s Office Registration Number ZB585887. VAT Registration Number 465 1110 23. All rights reserved.</p>
+                <p className="text-center">&copy; {curyear} Zoiko Mobile is Link trading name of Zoiko Telecom Ltd. Registered in England and Wales (No. 15021457). Information Commissioner&apos;s Office Registration Number ZB585887. VAT Registration Number 465 1110 23. All rights reserved.</p>
             </Container>
         </Container>
         </>
