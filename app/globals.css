@@ -822,4 +822,8 @@ ul.redbullet li::marker {
     padding-bottom: 20px;
     font-size: 12px;
   }
+  .body22 {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
