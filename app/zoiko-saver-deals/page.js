@@ -13,7 +13,7 @@ function SaverDeals () {
         <Container fluid className="saverdeal p-0">
             <Container>
                 <Row>
-                    <Col>
+                    <Col md={8} sm={12} xs={12}>
                         <p><span className="bigred">Zoiko Saver Deals</span><br />
                         <span className="green18">A Comprehensive Plan for Low-Income Individuals &amp; Families</span><br />
                         Zoiko Saver Deals aims to provide affordable and reliable mobile, broadband, and digital phone services to individuals on low income or Benefits. By offering competitive pricing and flexible packages, Zoiko Mobile ensures that everyone stays connected without breaking the bank.</p>

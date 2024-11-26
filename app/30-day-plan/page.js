@@ -101,7 +101,7 @@ function ThirtyDay () {
         <Carousel className="py-5 px-4 simplandeal">
             <Carousel.Item>
                 <Row>
-                    <Col>
+                    <Col md={4} sm={12} xs={12}>
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">Stream Seeker</h5>
@@ -126,7 +126,7 @@ function ThirtyDay () {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col md={4} sm={12} xs={12}>
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">Connect Compass</h5>
@@ -151,7 +151,7 @@ function ThirtyDay () {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col md={4} sm={12} xs={12}>
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">Web Wanderer</h5>
@@ -180,7 +180,7 @@ function ThirtyDay () {
             </Carousel.Item>
             <Carousel.Item>
                 <Row>
-                    <Col>
+                    <Col md={4} sm={12} xs={12}>
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">Data Dash</h5>
@@ -205,7 +205,7 @@ function ThirtyDay () {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col md={4} sm={12} xs={12}>
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">Gig Guru</h5>
@@ -230,7 +230,7 @@ function ThirtyDay () {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col md={4} sm={12} xs={12}>
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">Stream Seeker</h5>
@@ -261,7 +261,7 @@ function ThirtyDay () {
         <HeadBar text='Zoiko Roaming Deals' />
         <Container className="py-5 simplandeal">
             <Row>
-                <Col>
+                <Col md={6} sm={12} xs={12}>
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Day Pass Roaming Zones 2 <span className="txtred">&amp;</span> 3</h5>
@@ -286,7 +286,7 @@ function ThirtyDay () {
                         </div>
                     </div>
                 </Col>
-                <Col>
+                <Col md={6} sm={12} xs={12}>
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Day Pass Roaming Zones 4 <span className="txtred">&amp;</span> 5</h5>
