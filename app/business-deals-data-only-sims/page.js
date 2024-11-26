@@ -28,7 +28,7 @@ export default function SimBusinessDeal () {
                     <Carousel controls={false}>
                         <Carousel.Item>
                             <Row>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Roam &amp; Study MAX</h5>
@@ -53,7 +53,7 @@ export default function SimBusinessDeal () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Business Booster Premium</h5>
@@ -78,7 +78,7 @@ export default function SimBusinessDeal () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Unlimited Data Bundle</h5>
@@ -107,7 +107,7 @@ export default function SimBusinessDeal () {
                         </Carousel.Item>
                         <Carousel.Item>
                             <Row>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Roam &amp; Study MAX</h5>
@@ -132,7 +132,7 @@ export default function SimBusinessDeal () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Business Booster Premium</h5>
@@ -157,7 +157,7 @@ export default function SimBusinessDeal () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Unlimited Data Bundle</h5>
@@ -190,7 +190,7 @@ export default function SimBusinessDeal () {
                     <Carousel controls={false}>
                         <Carousel.Item>
                             <Row>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Roam &amp; Study MAX</h5>
@@ -215,7 +215,7 @@ export default function SimBusinessDeal () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Business Booster Premium</h5>
@@ -240,7 +240,7 @@ export default function SimBusinessDeal () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Unlimited Data Bundle</h5>
@@ -269,7 +269,7 @@ export default function SimBusinessDeal () {
                         </Carousel.Item>
                         <Carousel.Item>
                             <Row>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Roam &amp; Study MAX</h5>
@@ -294,7 +294,7 @@ export default function SimBusinessDeal () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Business Booster Premium</h5>
@@ -319,7 +319,7 @@ export default function SimBusinessDeal () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title">Unlimited Data Bundle</h5>

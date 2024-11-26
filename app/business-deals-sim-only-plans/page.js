@@ -25,7 +25,7 @@ function BusinessSimOnlyPlan () {
             <div className="tab-content simplandeal">
                 <div id="24month" className="tab-pane active" aria-current="page">
                     <Row>
-                        <Col>
+                        <Col md={4} sm={12} xs={12}>
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">Business Booster Lite</h5>
@@ -50,7 +50,7 @@ function BusinessSimOnlyPlan () {
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col md={4} sm={12} xs={12}>
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">Business Booster Premium</h5>
@@ -75,7 +75,7 @@ function BusinessSimOnlyPlan () {
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col md={4} sm={12} xs={12}>
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">Business Booster Pro</h5>
@@ -104,7 +104,7 @@ function BusinessSimOnlyPlan () {
                 </div>
                 <div id="12month" className="tab-pane">
                     <Row>
-                        <Col>
+                        <Col md={4} sm={12} xs={12}>
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">Business Booster Lite</h5>
@@ -129,7 +129,7 @@ function BusinessSimOnlyPlan () {
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col md={4} sm={12} xs={12}>
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">Business Booster Premium</h5>
@@ -154,7 +154,7 @@ function BusinessSimOnlyPlan () {
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col md={4} sm={12} xs={12}>
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">Business Booster Pro</h5>

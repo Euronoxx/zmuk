@@ -108,7 +108,7 @@ function CivilServants () {
             <p>Requires compatible handset and network coverage.</p>
             <h3 className="txtred mt-3">EU Roaming</h3>
             <p>For use in EU countries only.</p>
-            <p className="text-center mt-4">This offer can be used in conjunction with other promotional offers from Zoiko Mobile.</p>
+            <p className="text-center mt-4 body22">This offer can be used in conjunction with other promotional offers from Zoiko Mobile.</p>
         </Container>
         <Footer />
         </>

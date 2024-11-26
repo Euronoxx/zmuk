@@ -35,7 +35,7 @@ export default function CarouselSimPlan () {
                     <Carousel nextIcon={directionButtons(<i class="bi bi-arrow-right-circle carousel-next-icon"></i>)} prevIcon={directionButtons(<i class="bi bi-arrow-left-circle carousel-prev-btn"></i>)}>
                         <Carousel.Item>
                             <Row>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Value Pack 
@@ -63,7 +63,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Best Seller
@@ -91,7 +91,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Exclusive Offer
@@ -123,7 +123,7 @@ export default function CarouselSimPlan () {
                         </Carousel.Item>
                         <Carousel.Item>
                             <Row>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Value Pack
@@ -151,7 +151,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Best Seller
@@ -179,7 +179,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Exclusive Offer
@@ -216,7 +216,7 @@ export default function CarouselSimPlan () {
                     <Carousel>
                         <Carousel.Item>
                             <Row>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Value Pack
@@ -244,7 +244,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Best Seller
@@ -272,7 +272,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Exclusive Offer
@@ -304,7 +304,7 @@ export default function CarouselSimPlan () {
                         </Carousel.Item>
                         <Carousel.Item>
                             <Row>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Value Pack
@@ -332,7 +332,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Best Seller
@@ -360,7 +360,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Exclusive Offer
@@ -397,7 +397,7 @@ export default function CarouselSimPlan () {
                     <Carousel>
                         <Carousel.Item>
                             <Row>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Value Pack
@@ -425,7 +425,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Best Seller
@@ -453,7 +453,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Exclusive Offer
@@ -485,7 +485,7 @@ export default function CarouselSimPlan () {
                         </Carousel.Item>
                         <Carousel.Item>
                             <Row>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Value Pack
@@ -513,7 +513,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Best Seller
@@ -541,7 +541,7 @@ export default function CarouselSimPlan () {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col md={4} sm={12} xs={12}>
                                     <div className="card">
                                         <div className="card-header">
                                             Exclusive Offer

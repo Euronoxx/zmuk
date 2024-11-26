@@ -100,7 +100,7 @@ function StudentDiscount () {
                 <li>The free SIM card is available to students switching networks to Zoiko Mobile, as well as to new customers.</li>
                 <li>Renew your student discount with updated proof of enrolment upon contract expiration.</li>
             </ul>
-            <p className="text-center my-4">This offer can be used in conjunction with other promotional offers from Zoiko Mobile.</p>
+            <p className="text-center my-4 body22">This offer can be used in conjunction with other promotional offers from Zoiko Mobile.</p>
             <div className="text-center">
                 <Link href={'/login'} className="btn btn-outline-danger px-5">Join Now</Link><Link href={'/zoiko-mobile-switch-save-form'} className="btn btn-outline-danger px-5 mx-5">Switch &amp; Save</Link>
             </div>

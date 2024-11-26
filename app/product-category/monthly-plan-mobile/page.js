@@ -62,7 +62,7 @@ export default function MonthlyPlanMobile () {
                                 </Col>
                             </Row>
                             <div className="mt-4">
-                                <Button variant="outline-danger">View Details</Button>&nbsp;<Button variant="outline-danger">Buy Now</Button>
+                                <Button variant="outline-danger" href={`/products/${item.slug}`}>View Details</Button>&nbsp;<Button variant="outline-danger" href={`/products/${item.slug}`}>Buy Now</Button>
                             </div>
                         </Card>
                     </Col>

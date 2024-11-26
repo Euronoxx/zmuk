@@ -18,7 +18,7 @@ const plans = () => {
         <HeadBar text='Zoiko SIM Only Business Deals' />
         <Container fluid className="my-4 simplandeal">
             <Row>
-                <Col>
+                <Col md={4} sm={12} xs={12}>
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Roam &amp; Study MAX</h5>
@@ -43,7 +43,7 @@ const plans = () => {
                         </div>
                     </div>
                 </Col>
-                <Col>
+                <Col md={4} sm={12} xs={12}>
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Business Booster Premium</h5>
@@ -68,7 +68,7 @@ const plans = () => {
                         </div>
                     </div>
                 </Col>
-                <Col>
+                <Col md={4} sm={12} xs={12}>
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Unlimited Data Bundle</h5>
