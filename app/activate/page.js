@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HeadBar from "../components/HeadBar";
 
-export default function activate () {
+export default function Activate () {
 
     const [errors, setErrors] = useState({});
     const [selectedValue, setSelectedValue] = useState('');
