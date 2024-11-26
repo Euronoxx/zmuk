@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HeadBar from "../components/HeadBar";
 
-const activate = () => {
+export default function activate () {
 
     const [errors, setErrors] = useState({});
     const [selectedValue, setSelectedValue] = useState('');
@@ -173,6 +173,4 @@ const activate = () => {
         <Footer />
         </>
     );
-};
-
-export default activate;
+}
