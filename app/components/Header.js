@@ -82,55 +82,50 @@ const Header = () => {
                                 <Container className="py-4">
                                     <Row>
                                         <Col md={3} sm={12} xs={12}>
-                                            <p><span className="txtgreen">Customer Support</span><br />
-                                                <ul className="menulist">
-                                                    <li><Link href={"/support"}>Help &amp; Support</Link></li>
-                                                    <li><Link href={"/reasons-to-love-zoiko-mobile"}>Reasons to love Zoiko</Link></li>
-                                                    <li><Link href={"https://ee.co.uk/help/mobile-coverage-checker"} target="_blank">Check Network Coverage</Link></li>
-                                                    <li><Link href={"/faq"}>FAQs</Link></li>
-                                                    <li>How to activate SIM Cards</li>
-                                                </ul>
-                                            </p>
+                                            <p><span className="txtgreen">Customer Support</span></p>
+                                            <ul className="menulist">
+                                                <li><Link href={"/support"}>Help &amp; Support</Link></li>
+                                                <li><Link href={"/reasons-to-love-zoiko-mobile"}>Reasons to love Zoiko</Link></li>
+                                                <li><Link href={"https://ee.co.uk/help/mobile-coverage-checker"} target="_blank">Check Network Coverage</Link></li>
+                                                <li><Link href={"/faq"}>FAQs</Link></li>
+                                                <li><Link href={"/how-to-activate-sim"}>How to activate SIM Cards</Link></li>
+                                            </ul>
                                         </Col>
                                         <Col md={2} sm={12} xs={12}>
-                                            <p><span className="txtgreen">Get Started</span><br />
-                                                <ul className="menulist">
-                                                    <li><Link href={"/switch"}>Switch &amp; Save</Link></li>
-                                                    <li><Link href="/login">Join Zoiko Family</Link></li>
-                                                    <li><Link href="/free-delivery-policy">Free Delivery</Link></li>
-                                                    <li><Link href="/product-category/refurbished">Refurbished Smartphones</Link></li>
-                                                    <li><Link href={"/return-policy"}>Return Policy</Link></li>
-                                                </ul>
-                                            </p>
+                                            <p><span className="txtgreen">Get Started</span></p>
+                                            <ul className="menulist">
+                                                <li><Link href={"/switch"}>Switch &amp; Save</Link></li>
+                                                <li><Link href="/login">Join Zoiko Family</Link></li>
+                                                <li><Link href="/free-delivery-policy">Free Delivery</Link></li>
+                                                <li><Link href="/product-category/refurbished">Refurbished Smartphones</Link></li>
+                                                <li><Link href={"/return-policy"}>Return Policy</Link></li>
+                                            </ul>
                                         </Col>
                                         <Col md={2} sm={12} xs={12}>
-                                            <p><span className="txtgreen">Customer Dashbpard</span><br />
-                                                <ul className="menulist">
-                                                    <li><Link href="/login">Login</Link></li>
-                                                </ul>
-                                            </p>
+                                            <p><span className="txtgreen">Customer Dashbpard</span></p>
+                                            <ul className="menulist">
+                                                <li><Link href="/login">Login</Link></li>
+                                            </ul>
                                         </Col>
                                         <Col md={3} sm={12} xs={12}>
-                                            <p><span className="txtgreen">Tariffs &amp; Prices</span><br />
-                                                <ul className="menulist">
-                                                    <li><Link href={"/roaming-and-overage"}>Roaming Charges</Link></li>
-                                                    <li><Link href={"/bundled-sim-plan-offer"}>Bundled Offers</Link></li>
-                                                    <li>Free International Calls</li>
-                                                    <li><Link href={"/international-out-of-bundle-rates"}>Out-of-Bundle Rates</Link></li>
-                                                    <li><Link href={"/civilservants"}>Public Sector Lifetime Deals</Link></li>
-                                                </ul>
-                                            </p>
+                                            <p><span className="txtgreen">Tariffs &amp; Prices</span></p>
+                                            <ul className="menulist">
+                                                <li><Link href={"/roaming-and-overage"}>Roaming Charges</Link></li>
+                                                <li><Link href={"/bundled-sim-plan-offer"}>Bundled Offers</Link></li>
+                                                <li>Free International Calls</li>
+                                                <li><Link href={"/international-out-of-bundle-rates"}>Out-of-Bundle Rates</Link></li>
+                                                <li><Link href={"/civilservants"}>Public Sector Lifetime Deals</Link></li>
+                                            </ul>
                                         </Col>
                                         <Col md={2} sm={12} xs={12}>
-                                            <p><span className="txtgreen">What&apos;s Included</span><br />
-                                                <ul className="menulist">
-                                                    <li><Link href={"/5G-speed"}>5G Speed</Link></li>
-                                                    <li><Link href={"/wi-fi-calling"}>Wi-Fi Calling</Link></li>
-                                                    <li><Link href={"/eu-roaming"}>EU Roaming</Link></li>
-                                                    <li><Link href={"/global-chatter-free-international-calls"}>International Calls</Link></li>
-                                                    <li><Link href={"/esim"}>eSIM</Link></li>
-                                                </ul>
-                                            </p>
+                                            <p><span className="txtgreen">What&apos;s Included</span></p>
+                                            <ul className="menulist">
+                                                <li><Link href={"/5G-speed"}>5G Speed</Link></li>
+                                                <li><Link href={"/wi-fi-calling"}>Wi-Fi Calling</Link></li>
+                                                <li><Link href={"/eu-roaming"}>EU Roaming</Link></li>
+                                                <li><Link href={"/global-chatter-free-international-calls"}>International Calls</Link></li>
+                                                <li><Link href={"/esim"}>eSIM</Link></li>
+                                            </ul>
                                         </Col>
                                     </Row>
                                 </Container>
@@ -146,7 +141,7 @@ const Header = () => {
                             <Link href={"#"} className="nav-link px-3"><i className="bi bi-cart"></i></Link>
                         </li>
                         <li className="nav-item dropdown">
-                        <button className="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">My Zoiko</button>
+                            <button className="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">My Zoiko</button>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link className="dropdown-item" href="/login">Login</Link></li>
                                 <li><Link className="dropdown-item" href="/register">Register</Link></li>
