@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "name": "silversurfer",
+        "twofifty": [
+            "Canada", "Ireland", "Italy", "Norway", "Colombia", "Puerto Rico", "Romania", "Slovakia", "Sweden"
+        ],
+        "twohundred": [
+            "Peru"
+        ],
+        "onefifty": [
+            "Iceland"
+        ],
+        "hundred": [
+            "Australia", "Bangladesh", "Brazil", "Colombia", "French Guiana", "Mexico"
+        ],
+        "fifty": [
+            "Chile", "Costa Rica", "Estonia", "Gibraltar", "Guadeloupe", "Guam", "India", "Japan", "Korea (South)", "Malaysia", "Martinique", "Mongolia", "Paraguay", "Portugal", "San Marino", "Taiwan", "USA"
+        ],
+        "thirty": [
+            "Andorra", "Argentina", "Bermuda", "Czech Republic", "Dominican Republic", "France", "Greece", "Hong Kong", "Isreal", "Kazakhstan", "Kuwait", "Morocco", "Pakistan", "Panama", "Thailand", "Turkey", "Venezuela"
+        ],
+        "data": "10GB"
+    },
+    {
+        "id": 2,
+        "name": "roamstudymax",
+        "twofifty": [
+            "Canada", "Ireland", "Italy", "Norway", "Peru", "Puerto Rico", "Romania", "Slovakia", "Sweden"
+        ],
+        "twohundred": [
+            "Iceland"
+        ],
+        "onefifty": [
+            "Australia", "Brazil", "Colombia", "French Guiana", "Mexico"
+        ],
+        "hundred": [
+            "Bangladesh", "Chile", "Estonia", "Guam", "Japan", "Korea (South)", "Malaysia", "Mongolia", "USA"
+        ],
+        "fifty": [
+            "Andorra", "Argentina", "Bermuda", "Costa Rica", "Czech Republic", "Dominican Republic", "France", "Gibraltar", "Greece", "Guadeloupe", "Hong Kong", "India", "Isreal", "Kazakhstan", "Martinique", "Morocco", "Pakistan", "Panama", "Paraguay", "Portugal", "San Marino", "Taiwan", "Turkey", "Venezuela"
+        ],
+        "thirty": [
+            "Algeria", "Bhutan", "Cambodia", "Greenland", "Hungary", "Indonesia", "Kuwait", "Liechtenstein", "New Zealand", "Poland", "Switzerland", "Thailand", "Uruguay"
+        ],
+        "data": "30GB"
+    },
+    {
+        "id": 3,
+        "name": "zoikoelite",
+        "twofifty": [
+            "Australia", "Bangladesh", "Brazil", "Canada", "Colombia", "France Guiana", "Iceland", "Ireland", "Italy", "Mexico", "Norway", "Peru", "Puerto Rico", "Romania", "Slovakia", "Sweden"
+        ],
+        "twohundred": [
+            "Estonoa", "Korea (South)", "Malaysia", "Mongolia", "USA"
+        ],
+        "onefifty": [
+            "Chile", "Costa Rica", "Guam", "Japan", "Martinique", "Paraguay", "Portugal", "San Marino", "Taiwan"
+        ],
+        "hundred": [
+            "Andorra", "Argentina", "Dominican Republic", "Franca", "Gibraltar", "Greece", "Guadeloupe", "Hong Kong", "India", "Isreal", "Panama", "Turkey", "Venezuela"
+        ],
+        "fifty": [
+            "Algeria", "Bermuda", "Bhutan", "Cambodia", "Czech Republic", "Faroe Islands", "Greenland", "Hungary", "Indonesai", "Kazakhstan", "Kuwait", "Liechtenstein", "Morocco", "New Zealand", "Pakistan", "Poland", "Switzerland", "Thailand", "Uruguay", "Venezuela"
+        ],
+        "thirty": [
+            "Angola", "Belgium", "Bulgaria", "Cameroon", "Egypt", "Eswatini", "Laos", "Lebanon", "Monaco", "Oman", "Singapore", "Uzbekistan", "Vietnam"
+        ],
+        "data": "100GB"
+    },
+    {
+        "id": 4,
+        "name": "unlimitedbundle",
+        "twofifty": [
+            "Australia", "Bangladesh", "Brazil", "Canada", "Colombia", "Estonia", "France Guiana", "Iceland", "Ireland", "Italy", "Korea (South)", "Malaysia", "Mongolia", "Mexico", "Norway", "Peru", "Puerto Rico", "Romania", "Slovakia", "Sweden", "USA"
+        ],
+        "twohundred": [
+            "Chile", "Costa Rica", "Guam", "Japan", "Martinique", "San Marino", "Taiwan"
+        ],
+        "onefifty": [
+            "Gibraltar", "Greece", "Guadeloupe", "India", "Paraguay", "Portugal"
+        ],
+        "hundred": [
+            "Andorra", "Argentina", "Bermuda", "Czech Republic", "Dominican Republic", "Franca", "Hong Kong", "Isreal", "Kazakhstan", "Morocco", "Panama", "Pakistan", "Turkey", "Venezuela"
+        ],
+        "fifty": [
+            "Algeria", "Bhutan", "Cambodia", "Faroe Islands", "Greenland", "Hungary", "Indonesai", "Kuwait", "Laos", "Liechtenstein", "Monaco", "New Zealand", "Poland", "Switzerland", "Thailand", "Uruguay", "Vietnam", "Nicaragua", "Nigeria", "Oman", "Palestine"
+        ],
+        "thirty": [
+            "Angola", "Aruba", "Austria", "Bahrain", "Belgium", "Bulgaria", "Cameroon", "Cyprus", "Egypt", "Eswatini", "Lebanon", "Nepal", "Oman", "Saudi Arabia", "Singapore", "Sint Maarten", "South Africa", "Ukraine", "Uzbekistan"
+        ],
+        "data": "Unlimited Plan"
+    },
+    {
+        "id": 5,
+        "name": "bblite",
+        "twofifty": [
+            "Canada", "Ireland", "Italy", "Norway", "Peru", "Puerto Rico", "Romania", "Slovakia", "Sweden"
+        ],
+        "twohundred": [
+            "Iceland"
+        ],
+        "onefifty": [
+            "Australia", "Brazil", "Colombia", "French Guiana", "Mexico"
+        ],
+        "hundred": [
+            "Bangladesh", "Chile", "Estonia", "Guam", "Japan", "Korea (South)", "Malaysia", "Mongolia", "USA"
+        ],
+        "fifty": [
+            "Andorra", "Argentina", "Bermuda", "Costa Rica", "Czech Republic", "Dominican Republic", "France", "Gibraltar", "Greece", "Guadeloupe", "Hong Kong", "India", "Isreal", "Kazakhstan", "Martinique", "Morocco", "Pakistan", "Panama", "Paraguay", "Portugal", "San Marino", "Taiwan", "Turkey", "Venezuela"
+        ],
+        "thirty": [
+            "Algeria", "Bhutan", "Cambodia", "Greenland", "Hungary", "Indonesia", "Kuwait", "Liechtenstein", "New Zealand", "Poland", "Switzerland", "Thailand", "Uruguay"
+        ],
+        "data": "30GB"
+    },
+    {
+        "id": 6,
+        "name": "bbpremium",
+        "twofifty": [
+            "Australia", "Bangladesh", "Brazil", "Canada", "Colombia", "France Guiana", "Iceland", "Ireland", "Italy", "Mexico", "Norway", "Peru", "Puerto Rico", "Romania", "Slovakia", "Sweden"
+        ],
+        "twohundred": [
+            "Estonoa", "Korea (South)", "Malaysia", "Mongolia", "USA"
+        ],
+        "onefifty": [
+            "Chile", "Costa Rica", "Guam", "Japan", "Martinique", "Paraguay", "Portugal", "San Marino", "Taiwan"
+        ],
+        "hundred": [
+            "Andorra", "Argentina", "Dominican Republic", "Franca", "Gibraltar", "Greece", "Guadeloupe", "Hong Kong", "India", "Isreal", "Panama", "Turkey", "Venezuela"
+        ],
+        "fifty": [
+            "Algeria", "Bermuda", "Bhutan", "Cambodia", "Czech Republic", "Faroe Islands", "Greenland", "Hungary", "Indonesai", "Kazakhstan", "Kuwait", "Liechtenstein", "Morocco", "New Zealand", "Pakistan", "Poland", "Switzerland", "Thailand", "Uruguay", "Venezuela"
+        ],
+        "thirty": [
+            "Angola", "Belgium", "Bulgaria", "Cameroon", "Egypt", "Eswatini", "Laos", "Lebanon", "Monaco", "Oman", "Singapore", "Uzbekistan", "Vietnam"
+        ],
+        "data": "100GB"
+    },
+    {
+        "id": 7,
+        "name": "bbpro",
+        "twofifty": [
+            "Australia", "Bangladesh", "Brazil", "Canada", "Colombia", "Estonia", "France Guiana", "Iceland", "Ireland", "Italy", "Korea (South)", "Malaysia", "Mongolia", "Mexico", "Norway", "Peru", "Puerto Rico", "Romania", "Slovakia", "Sweden", "USA"
+        ],
+        "twohundred": [
+            "Chile", "Costa Rica", "Guam", "Japan", "Martinique", "San Marino", "Taiwan"
+        ],
+        "onefifty": [
+            "Gibraltar", "Greece", "Guadeloupe", "India", "Paraguay", "Portugal"
+        ],
+        "hundred": [
+            "Andorra", "Argentina", "Bermuda", "Czech Republic", "Dominican Republic", "Franca", "Hong Kong", "Isreal", "Kazakhstan", "Morocco", "Panama", "Pakistan", "Turkey", "Venezuela"
+        ],
+        "fifty": [
+            "Algeria", "Bhutan", "Cambodia", "Faroe Islands", "Greenland", "Hungary", "Indonesai", "Kuwait", "Laos", "Liechtenstein", "Monaco", "New Zealand", "Poland", "Switzerland", "Thailand", "Uruguay", "Vietnam", "Nicaragua", "Nigeria", "Oman", "Palestine"
+        ],
+        "thirty": [
+            "Angola", "Aruba", "Austria", "Bahrain", "Belgium", "Bulgaria", "Cameroon", "Cyprus", "Egypt", "Eswatini", "Lebanon", "Nepal", "Oman", "Saudi Arabia", "Singapore", "Sint Maarten", "South Africa", "Ukraine", "Uzbekistan"
+        ],
+        "data": "Unlimited Plan"
+    }
+]

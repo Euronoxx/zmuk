@@ -9,12 +9,12 @@ const Footer = () => {
         <Container fluid className="topfooter">
             <Container>
                 <Row>
-                    <div className="col-md-4 col-sm-12 col-xs-12">
+                    <Col md={4} sm={12} xs={12}>
                         <Link className="navbar-brand" href="/">
                             <Image src='/img/zoikomobile_logo.png' width={313} height={130} className="footerlogo" alt="ZM Logo" />
                         </Link>
-                    </div>
-                    <div className="col-md-2 col-sm-12 col-xs-12">
+                    </Col>
+                    <Col md={2} sm={12} xs={12}>
                         <h4>Zoiko Mobile</h4>
                         <ul>
                             <li><Link href="/plans">Zoiko Mobile Plans</Link></li>
@@ -23,8 +23,8 @@ const Footer = () => {
                             <li><Link href="/30-day-plan">30-Day Plans</Link></li>
                             <li><Link href="https://ee.co.uk/help/mobile-coverage-checker" target="_blank">Coverage Checker</Link></li>
                         </ul>
-                    </div>
-                    <div className="col-md-2 col-sm-12 col-xs-12">
+                    </Col>
+                    <Col md={2} sm={12} xs={12}>
                         <h4>Zoiko Rates</h4>
                         <ul>
                             <li><Link href={"/roaming-and-overage"}>Roaming and Overage</Link></li>
@@ -40,8 +40,8 @@ const Footer = () => {
                                 </ul>
                             </li>
                         </ul>
-                    </div>
-                    <div className="col-md-2 col-sm-12 col-xs-12">
+                    </Col>
+                    <Col md={2} sm={12} xs={12}>
                         <h4>About Zoiko</h4>
                         <ul>
                             <li><Link href="/blog">Blogs</Link></li>
@@ -63,8 +63,8 @@ const Footer = () => {
                                 </ul>
                             </li>
                         </ul>
-                    </div>
-                    <div className="col-md-2 col-sm-12 col-xs-12">
+                    </Col>
+                    <Col md={2} sm={12} xs={12}>
                         <h4>Zoiko Legal</h4>
                         <ul>
                             <li><Link href="/terms-and-conditions">Term and Conditions</Link></li>
@@ -82,7 +82,7 @@ const Footer = () => {
                                 </ul>
                             </li>
                         </ul>
-                    </div>
+                    </Col>
                 </Row>
             </Container>
         </Container>
