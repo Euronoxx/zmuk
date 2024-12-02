@@ -54,22 +54,22 @@ const FreeInternationalCalling = () => {
                         <tbody>
                             <tr>
                                 <td>{item.twofifty.map((item) => (
-                                    <p>{item}</p>
+                                    <p key={item.id}>{item}</p>
                                 ))}</td>
                                 <td>{item.twohundred.map((item) => (
-                                    <p>{item}</p>
+                                    <p key={item.id}>{item}</p>
                                 ))}</td>
                                 <td>{item.onefifty.map((item) => (
-                                    <p>{item}</p>
+                                    <p key={item.id}>{item}</p>
                                 ))}</td>
                                 <td>{item.hundred.map((item) => (
-                                    <p>{item}</p>
+                                    <p key={item.id}>{item}</p>
                                 ))}</td>
                                 <td>{item.fifty.map((item) => (
-                                    <p>{item}</p>
+                                    <p key={item.id}>{item}</p>
                                 ))}</td>
                                 <td>{item.thirty.map((item) => (
-                                    <p>{item}</p>
+                                    <p key={item.id}>{item}</p>
                                 ))}</td>
                             </tr>
                         </tbody>
