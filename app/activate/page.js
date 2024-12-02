@@ -1,11 +1,11 @@
 "use client"
 import React, { useState } from "react";
-import { Container, Row, Col, Form } from "react-bootstrap";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HeadBar from "../components/HeadBar";
 
-export default function Activate () {
+const Activate = () => {
 
     const [errors, setErrors] = useState({});
     const [selectedValue, setSelectedValue] = useState('');
@@ -41,6 +41,7 @@ export default function Activate () {
         if (!formData.serialno) formErrors.serialno = "Serial no is required"
         if (!formData.lname) formErrors.lname = "Last name is required"
         if (!formData.fname) formErrors.fname = "First name is required"
+        if (!formData.package) formErrors.package = "Package is required"
         if (!formData.email) {
           formErrors.email = "Email is required"
         } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
@@ -62,21 +63,21 @@ export default function Activate () {
         <Header />
         <HeadBar text='Activate your SIM' />
         <Container>
-            <h4 className="my-4 green18 text-center">Get started with our services! Initiate the activation process htmoFor your new SIM card here</h4>
+            <h4 className="my-4 green18 text-center">Get started with our services! Initiate the activation process for your new SIM card here</h4>
             <Form onSubmit={onSubmit} className="my-5">
                 <Row>
                     <Col>
-                        <label htmoFor="username">Username</label>
+                        <label htmlFor="username">Username</label>
                         <input type="text" name="username" className="form-control" onChange={handleChange} value={formData.username} />
                         {errors.username && <p className="txtred">{errors.username}</p>}
                     </Col>
                     <Col>
-                        <label htmoFor="email">Email</label>
+                        <label htmlFor="email">Email</label>
                         <input type="text" name="email" className="form-control" onChange={handleChange} value={formData.email} />
                         {errors.email && <p className="txtred">{errors.email}</p>}
                     </Col>
                     <Col>
-                        <label htmoFor="otpcode">OTP Code</label>
+                        <label htmlFor="otpcode">OTP Code</label>
                         <input type="text" name="otpcode" className="form-control" onChange={handleChange} value={formData.otpcode} />
                         {errors.otpcode && <p className="txtred">{errors.otpcode}</p>}
                     </Col>
@@ -84,13 +85,14 @@ export default function Activate () {
                 <br />
                 <Row>
                     <Col>
-                        <label htmoFor="serialno">SIM Serial Number</label>
+                        <label htmlFor="serialno">SIM Serial Number</label>
                         <input type="text" name="serialno" className="form-control" onChange={handleChange} value={formData.serialno} />
                         {errors.serialno && <p className="txtred">{errors.serialno}</p>}
                     </Col>
                     <Col>
-                        <label htmoFor="title">Title</label>
+                        <label htmlFor="title">Title</label>
                         <select className="form-select" name="title" onChange={handleChange} value={formData.title}>
+                            <option value={""}>Select Title</option>
                             <option value={'Mr'}>Mr</option>
                             <option value={'Mrs'}>Mrs</option>
                             <option value={'Miss'}>Miss</option>
@@ -103,12 +105,12 @@ export default function Activate () {
                 <br />
                 <Row>
                     <Col>
-                        <label htmoFor="lname">Last Name</label>
+                        <label htmlFor="lname">Last Name</label>
                         <input type="text" name="lname" className="form-control" onChange={handleChange} value={formData.lname} />
                         {errors.lname && <p className="txtred">{errors.lname}</p>}
                     </Col>
                     <Col>
-                        <label htmoFor="fname">First Name</label>
+                        <label htmlFor="fname">First Name</label>
                         <input type="text" name="fname" className="form-control" onChange={handleChange} value={formData.fname} />
                         {errors.fname && <p className="txtred">{errors.fname}</p>}
                     </Col>
@@ -116,13 +118,14 @@ export default function Activate () {
                 <br />
                 <Row>
                     <Col>
-                        <label htmoFor="dob">Date of Birth</label>
+                        <label htmlFor="dob">Date of Birth</label>
                         <input type="date" name="dob" className="form-control" onChange={handleChange} value={formData.dob} />
                         {errors.dob && <p className="txtred">{errors.dob}</p>}
                     </Col>
                     <Col>
-                        <label htmoFor="package">Your Zoiko Package</label>
+                        <label htmlFor="package">Your Zoiko Package</label>
                         <select className="form-select" name="package" onChange={handleChange} value={formData.package}>
+                            <option value="">Select Package</option>
                             <option value="77984">Zoiko Saver Basic</option>
                             <option value="38890">Business Booster Pro</option>
                             <option value="38872">Business Booster Premium</option>
@@ -142,35 +145,38 @@ export default function Activate () {
                             <option value="15994">Gig Guru</option>
                             <option value="15991">Data Dash</option>
                         </select>
+                        {errors.package && <p className="txtred">{errors.package}</p>}
                     </Col>
                 </Row>
                 <br />
                 <Row>
                     <Col>
-                        <label htmoFor="country">Country</label>
+                        <label htmlFor="country">Country</label>
                         <input type="text" name="country" className="form-control" onChange={handleChange} value={formData.country} />
                     </Col>
                     <Col>
-                        <label htmoFor="zipcode">Postalcode/ZIP code</label>
+                        <label htmlFor="zipcode">Postalcode/ZIP code</label>
                         <input type="text" name="zipcode" className="form-control" onChange={handleChange} value={formData.zipcode} />
                     </Col>
                 </Row>
                 <br />
                 <Row>
                     <Col>
-                        <label htmoFor="city">City</label>
+                        <label htmlFor="city">City</label>
                         <input type="text" name="city" className="form-control" onChange={handleChange} value={formData.city} />
                     </Col>
                     <Col>
-                        <label htmoFor="addr">Address</label>
+                        <label htmlFor="addr">Address</label>
                         <input type="text" name="addr" className="form-control" onChange={handleChange} value={formData.addr} />
                     </Col>
                 </Row>
                 <br />
-                <input type="submit" value="Submit" name="submit" className="btn btn-outline-danger btn-lg" />
+                <input type="submit" value="Submit" name="submit" className="btn btn-outline-danger btn-lg" style={{marginRight:'20px'}} />
+                <Button variant="outline-danger" size="lg" href="/login">Back to My Account</Button>
             </Form>
         </Container>
         <Footer />
         </>
     );
-}
+};
+export default Activate;

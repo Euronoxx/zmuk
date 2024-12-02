@@ -40,7 +40,7 @@ export default function Login () {
         <>
         <Header />
         <HeadBar text='Join us today and enjoy our fantastic mobile services, all while supporting animal welfare and music initiatives!' />
-        <Container className="py-5 px-5">
+        <Container className="p-5">
             <Card>
                 <CardBody>
                      <Row className="gx-5">
@@ -60,9 +60,7 @@ export default function Login () {
                                 {errors.passwd && <small className="txtred">{errors.passwd}</small>}
                                 <br />
                                 <input className="form-check-input mb-4" type="checkbox" name="remember" onChange={handleChange} value={formData.remember} />&nbsp;
-                                <label className="form-check-label" htmlFor="remember">
-                                Remember me
-                                </label>
+                                <label className="form-check-label" htmlFor="remember">Remember me</label>
                                 <br />
                                 <input type="submit" name="submit" value={'Login'} className="btn btn-outline-danger" /> &nbsp; <Button variant="outline-danger" href="/register">Register</Button>
                             </Form>

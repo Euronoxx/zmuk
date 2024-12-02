@@ -112,7 +112,7 @@ const Header = () => {
                                             <ul className="menulist">
                                                 <li><Link href={"/roaming-and-overage"}>Roaming Charges</Link></li>
                                                 <li><Link href={"/bundled-sim-plan-offer"}>Bundled Offers</Link></li>
-                                                <li>Free International Calls</li>
+                                                <li><Link href={"/free-international-calling"}>Free International Calls</Link></li>
                                                 <li><Link href={"/international-out-of-bundle-rates"}>Out-of-Bundle Rates</Link></li>
                                                 <li><Link href={"/civilservants"}>Public Sector Lifetime Deals</Link></li>
                                             </ul>
