@@ -484,6 +484,9 @@ a.mainmenu {
 .txtred {
   color: #DF1E5A;
 }
+a .txtred {
+  text-decoration: none;
+}
 .promobar {
   display: block;
   border: 1px solid #DF1E5A;
