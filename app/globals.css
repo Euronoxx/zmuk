@@ -13,7 +13,7 @@ html, body{
   margin: 10px 0;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #DF1E5A;
 }
 a.mainmenu {
@@ -483,9 +483,6 @@ a.mainmenu {
 }
 .txtred {
   color: #DF1E5A;
-}
-a .txtred {
-  text-decoration: none;
 }
 .promobar {
   display: block;
