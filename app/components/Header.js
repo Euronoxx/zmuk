@@ -46,7 +46,7 @@ const Header = () => {
                                 <li><Link className="dropdown-item" href="/product-category/monthly-plan-mobile">30-Day Plans With Phones</Link></li>
                                 <li><Link className="dropdown-item" href="/product-category/contract-plan-mobile">Contract Plans With Phones</Link></li>
                                 <li><Link className="dropdown-item" href="#">International Calling Plans</Link></li>
-                                <li><Link className="dropdown-item" href="#">International Bolt-On Plans</Link></li>
+                                <li><Link className="dropdown-item" href="/zoiko-international-bolt-on-plans">International Bolt-On Plans</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
