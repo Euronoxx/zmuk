@@ -155,7 +155,7 @@ const Activate = () => {
                         <input type="text" name="country" className="form-control" onChange={handleChange} value={formData.country} />
                     </Col>
                     <Col>
-                        <label htmlFor="zipcode">Postalcode/ZIP code</label>
+                        <label htmlFor="zipcode">Postcode/ZIP code</label>
                         <input type="text" name="zipcode" className="form-control" onChange={handleChange} value={formData.zipcode} />
                     </Col>
                 </Row>
