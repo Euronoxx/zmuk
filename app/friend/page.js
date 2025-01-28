@@ -53,7 +53,7 @@ export default function Friend () {
         <>
         <Header />
         <HeadBar text='Zoiko Mobile: Refer A Friend Programme' />
-        <Container className="py-5 px-5">
+        <Container className="py-5">
             <Card>
                 <CardBody>
                      <Row className="gx-5">
